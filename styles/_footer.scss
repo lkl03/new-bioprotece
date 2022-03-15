@@ -1,0 +1,166 @@
+@import 'parameters';
+
+footer {
+    background: #000;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 100px;
+        height: 1px;
+        width: 100%;
+        background: #000;
+    }
+    .content {
+        max-width: 1250px;
+        margin: auto;
+        padding: 30px 40px 40px 40px;
+        .link-boxes {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .box {
+                width: calc(100% / 5 - 10px);
+                .link_name {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    position: relative;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: -2px;
+                        height: 2px;
+                        width: 35px;
+                        background: #fff;
+                    }
+                }
+                .link_nameh{
+                    opacity: 0;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    position: relative;
+                }
+                li {
+                    margin: 6px 0;
+                    list-style: none;
+                    a{
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-decoration: none;
+                        opacity: 0.8;
+                        transition: all 0.4s ease;
+                        &:hover{
+                            opacity: 1;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .input-box{
+                margin-right: 55px;
+                input {
+                    height: 40px;
+                    width: calc(100% + 55px);
+                    outline: none;
+                    border: 2px solid #afafb6;
+                    background: #140b5c;
+                    border-radius: 4px;
+                    padding: 0 15px;
+                    font-size: 15px;
+                    color: #fff;
+                    margin-top: 5px;
+                    &::placeholder{
+                        color: #afafb6;
+                        font-size: 16px;
+                    }
+                }
+                input[type="button"]{
+                    background: #fff;
+                    color: #140b5c;
+                    border: none;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin: 4px 0;
+                    opacity: 0.8;
+                    cursor: pointer;
+                    transition: all 0.4s ease;
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .content .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        .logo-details{
+            color: #fff;
+            font-size: 30px;
+        }
+        .media-icons{
+            display: flex;
+            a{
+                height: 40px;
+                width: 40px;
+                margin: 0 8px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 40px;
+                color: #fff;
+                font-size: 17px;
+                text-decoration: none;
+                transition: all 0.4s ease;
+            }
+        }
+
+    }
+    .bottom-details{
+        width: 100%;
+        background: #2c303a;
+        .bottom_text{
+            max-width: 1250px;
+            margin: auto;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            span, a{
+                font-size: 14px;
+                font-weight: 300;
+                color: #fff;
+                opacity: 0.8;
+                text-decoration: none;
+            }
+            a{
+                margin-right: 10px;
+                &:hover{
+                    opacity: 1;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.logo_name {
+    color: $lightblue !important;
+    text-decoration: none;
+}
+
+.c-number {
+    cursor: default;
+    &:hover{
+        text-decoration: none !important;
+    }
+}
