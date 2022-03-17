@@ -1,0 +1,55 @@
+* {
+    scroll-margin-top: 63px;
+}
+
+main {
+    padding-top: 73px;
+}
+
+@viewport {
+    user-zoom: fixed;
+}
+
+#home h2 {
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+#info h2 {
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+#certificaciones h2 {
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+#contacto h2 {
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+body {
+    position: relative;
+    &::-webkit-scrollbar {
+        width: 3px;
+        background-color: transparent;
+        &-thumb {
+            background-color: transparent;
+            border-radius: 15px;
+        }
+    }
+}
+
+#style-3::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
