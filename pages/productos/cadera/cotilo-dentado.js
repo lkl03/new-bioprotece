@@ -40,75 +40,75 @@ const Endbotton = () => {
                     </ImageDiv>
                     <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Ø Int.</th>
-                                    <th class="text-left">Ø Ext.</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Ø Int.</th>
+                                    <th className="text-left">Ø Ext.</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">14-001</td>
-                                    <td class="text-left">22</td>
-                                    <td class="text-center">40</td>
-                                    <td class="text-left">UHMWPE</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-left code">14-002</td>
-                                    <td class="text-left">22</td>
-                                    <td class="text-center">43</td>
-                                    <td class="text-left">UHMWPE</td>
+                                    <td className="text-left code">14-001</td>
+                                    <td className="text-left">22</td>
+                                    <td className="text-center">40</td>
+                                    <td className="text-left">UHMWPE</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">14-003</td>
-                                    <td class="text-left">22</td>
-                                    <td class="text-center">47</td>
-                                    <td class="text-left">UHMWPE</td>
+                                    <td className="text-left code">14-002</td>
+                                    <td className="text-left">22</td>
+                                    <td className="text-center">43</td>
+                                    <td className="text-left">UHMWPE</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">14-005</td>
-                                    <td class="text-left">22</td>
-                                    <td class="text-center">50</td>
-                                    <td class="text-left">UHMWPE</td>
+                                    <td className="text-left code">14-003</td>
+                                    <td className="text-left">22</td>
+                                    <td className="text-center">47</td>
+                                    <td className="text-left">UHMWPE</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">14-006</td>
-                                    <td class="text-left">28</td>
-                                    <td class="text-center">54</td>
-                                    <td class="text-left">UHMWPE</td>
+                                    <td className="text-left code">14-005</td>
+                                    <td className="text-left">22</td>
+                                    <td className="text-center">50</td>
+                                    <td className="text-left">UHMWPE</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">14-011</td>
-                                    <td class="text-left">28</td>
-                                    <td class="text-center">40</td>
-                                    <td class="text-left">Acero</td>
+                                <tr>
+                                    <td className="text-left code">14-006</td>
+                                    <td className="text-left">28</td>
+                                    <td className="text-center">54</td>
+                                    <td className="text-left">UHMWPE</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">14-012</td>
-                                    <td class="text-left">28</td>
-                                    <td class="text-center">43</td>
-                                    <td class="text-left">Acero</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">14-011</td>
+                                    <td className="text-left">28</td>
+                                    <td className="text-center">40</td>
+                                    <td className="text-left">Acero</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">14-013</td>
-                                    <td class="text-left">28</td>
-                                    <td class="text-center">47</td>
-                                    <td class="text-left">Acero</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">14-012</td>
+                                    <td className="text-left">28</td>
+                                    <td className="text-center">43</td>
+                                    <td className="text-left">Acero</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">14-014</td>
-                                    <td class="text-left">28</td>
-                                    <td class="text-center">50</td>
-                                    <td class="text-left">Acero</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">14-013</td>
+                                    <td className="text-left">28</td>
+                                    <td className="text-center">47</td>
+                                    <td className="text-left">Acero</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">14-015</td>
-                                    <td class="text-left">28</td>
-                                    <td class="text-center">54</td>
-                                    <td class="text-left">Acero</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">14-014</td>
+                                    <td className="text-left">28</td>
+                                    <td className="text-center">50</td>
+                                    <td className="text-left">Acero</td>
+                                </tr>
+                                <tr className="lastr">
+                                    <td className="text-left code">14-015</td>
+                                    <td className="text-left">28</td>
+                                    <td className="text-center">54</td>
+                                    <td className="text-left">Acero</td>
                                 </tr>
 
                             </tbody>

@@ -40,59 +40,59 @@ const Endbotton = () => {
                         <ItemImg src={`/img/items/artroscopia/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
                     <div className="info-div">
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Medida</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Medida</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">65-037</td>
-                                    <td class="text-left">10mm</td>
-                                    <td class="text-left">Titanio</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-left code">65-038</td>
-                                    <td class="text-left">15mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">65-037</td>
+                                    <td className="text-left">10mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">65-039</td>
-                                    <td class="text-left">20mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">65-038</td>
+                                    <td className="text-left">15mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">65-040</td>
-                                    <td class="text-left">25mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">65-039</td>
+                                    <td className="text-left">20mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">65-041</td>
-                                    <td class="text-left">30mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">65-040</td>
+                                    <td className="text-left">25mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">65-042</td>
-                                    <td class="text-left">35mm</td>
-                                    <td class="text-left">Titanio</td>
+                                <tr>
+                                    <td className="text-left code">65-041</td>
+                                    <td className="text-left">30mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">65-043</td>
-                                    <td class="text-left">Sindesmosis</td>
-                                    <td class="text-left">Titanio</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">65-042</td>
+                                    <td className="text-left">35mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">65-044</td>
-                                    <td class="text-left">Regulable Izado sup</td>
-                                    <td class="text-left">Titanio</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">65-043</td>
+                                    <td className="text-left">Sindesmosis</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">65-045</td>
-                                    <td class="text-left">Autoajustable Izado inf</td>
-                                    <td class="text-left">Titanio</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">65-044</td>
+                                    <td className="text-left">Regulable Izado sup</td>
+                                    <td className="text-left">Titanio</td>
+                                </tr>
+                                <tr className="lastr">
+                                    <td className="text-left code">65-045</td>
+                                    <td className="text-left">Autoajustable Izado inf</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
 
                             </tbody>

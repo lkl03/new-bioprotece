@@ -38,87 +38,87 @@ const GrapaIQL = () => {
                         <ItemImg src="/img/items/artroscopia/peek-tornillo-kurosaca-romo.webp" alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
                     <div className="info-div">
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Diam</th>
-                                    <th class="text-left">mm</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Diam</th>
+                                    <th className="text-left">mm</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">67-001</td>
-                                    <td class="text-left">7</td>
-                                    <td class="text-center">20</td>
-                                    <td class="text-left">Peek</td>
-                                </tr>
-                                <tr>
-                                    <td class="text-left code">67-002</td>
-                                    <td class="text-left">7</td>
-                                    <td class="text-center">25</td>
-                                    <td class="text-left">Peek</td>
+                                    <td className="text-left code">67-001</td>
+                                    <td className="text-left">7</td>
+                                    <td className="text-center">20</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">67-003</td>
-                                    <td class="text-left">7</td>
-                                    <td class="text-center">30</td>
-                                    <td class="text-left">Peek</td>
+                                    <td className="text-left code">67-002</td>
+                                    <td className="text-left">7</td>
+                                    <td className="text-center">25</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">67-005</td>
-                                    <td class="text-left">8</td>
-                                    <td class="text-center">20</td>
-                                    <td class="text-left">Peek</td>
+                                    <td className="text-left code">67-003</td>
+                                    <td className="text-left">7</td>
+                                    <td className="text-center">30</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">67-006</td>
-                                    <td class="text-left">8</td>
-                                    <td class="text-center">25</td>
-                                    <td class="text-left">Peek</td>
+                                    <td className="text-left code">67-005</td>
+                                    <td className="text-left">8</td>
+                                    <td className="text-center">20</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">67-007</td>
-                                    <td class="text-left">8</td>
-                                    <td class="text-center">30</td>
-                                    <td class="text-left">Peek</td>
+                                <tr>
+                                    <td className="text-left code">67-006</td>
+                                    <td className="text-left">8</td>
+                                    <td className="text-center">25</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">67-009</td>
-                                    <td class="text-left">9</td>
-                                    <td class="text-center">20</td>
-                                    <td class="text-left">Peek</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">67-007</td>
+                                    <td className="text-left">8</td>
+                                    <td className="text-center">30</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">67-010</td>
-                                    <td class="text-left">9</td>
-                                    <td class="text-center">25</td>
-                                    <td class="text-left">Peek</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">67-009</td>
+                                    <td className="text-left">9</td>
+                                    <td className="text-center">20</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">67-011</td>
-                                    <td class="text-left">9</td>
-                                    <td class="text-center">30</td>
-                                    <td class="text-left">Peek</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">67-010</td>
+                                    <td className="text-left">9</td>
+                                    <td className="text-center">25</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">67-013</td>
-                                    <td class="text-left">10</td>
-                                    <td class="text-center">20</td>
-                                    <td class="text-left">Peek</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">67-011</td>
+                                    <td className="text-left">9</td>
+                                    <td className="text-center">30</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">67-014</td>
-                                    <td class="text-left">10</td>
-                                    <td class="text-center">25</td>
-                                    <td class="text-left">Peek</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">67-013</td>
+                                    <td className="text-left">10</td>
+                                    <td className="text-center">20</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">67-015</td>
-                                    <td class="text-left">10</td>
-                                    <td class="text-center">30</td>
-                                    <td class="text-left">Peek</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">67-014</td>
+                                    <td className="text-left">10</td>
+                                    <td className="text-center">25</td>
+                                    <td className="text-left">Peek</td>
+                                </tr>
+                                <tr className="lastr">
+                                    <td className="text-left code">67-015</td>
+                                    <td className="text-left">10</td>
+                                    <td className="text-center">30</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
 
                             </tbody>

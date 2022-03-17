@@ -39,41 +39,41 @@ const VolarSimple = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/osteosintesis3-5/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod der</th>
-                                    <th class="text-left">Cod izq</th>
-                                    <th class="text-left">Orificios</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod der</th>
+                                    <th className="text-left">Cod izq</th>
+                                    <th className="text-left">Orificios</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">45-288</td>
-                                    <td class="text-left">45-284</td>
-                                    <td class="text-left">3</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-288</td>
+                                    <td className="text-left">45-284</td>
+                                    <td className="text-left">3</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-289</td>
-                                    <td class="text-left">45-285</td>
-                                    <td class="text-left">4</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-289</td>
+                                    <td className="text-left">45-285</td>
+                                    <td className="text-left">4</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-290</td>
-                                    <td class="text-left">45-286</td>
-                                    <td class="text-left">6</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-290</td>
+                                    <td className="text-left">45-286</td>
+                                    <td className="text-left">6</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-291</td>
-                                    <td class="text-left">45-287</td>
-                                    <td class="text-left">8</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-291</td>
+                                    <td className="text-left">45-287</td>
+                                    <td className="text-left">8</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
 
                             </tbody>

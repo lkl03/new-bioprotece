@@ -39,36 +39,36 @@ const OlecranonBloqueada = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/osteosintesis3-5/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Orificios</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Orificios</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">45-155</td>
-                                    <td class="text-left">3</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-155</td>
+                                    <td className="text-left">3</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-156</td>
-                                    <td class="text-left">5</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-156</td>
+                                    <td className="text-left">5</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-157</td>
-                                    <td class="text-left">7</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-157</td>
+                                    <td className="text-left">7</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-158</td>
-                                    <td class="text-left">9</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-158</td>
+                                    <td className="text-left">9</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
 
                             </tbody>

@@ -40,64 +40,64 @@ const CanuladoFresada = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/tornillos-canulados/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div multitables">
+                    <div className="info-div multitables">
 
                         <details open>
-                            <summary class="firstsum">Canulado Ø7 Rosca 16</summary>
+                            <summary className="firstsum">Canulado Ø7 Rosca 16</summary>
 
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Descripción</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Descripción</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-480</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 30mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-480</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 30mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-481</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 35mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-481</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 35mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-482</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 40mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-482</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 40mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-483</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 45mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-483</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 45mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-484</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 50mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-484</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 50mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-485</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 55mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-485</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 55mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-486</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 60mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-486</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 60mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-487</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 65mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-487</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 65mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-488</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 70mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-488</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 70mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -105,66 +105,66 @@ const CanuladoFresada = () => {
                         </details>
 
                         <details>
-                            <summary class="firstsum">Canulado Ø7 rosca 16 +75mm</summary>
+                            <summary className="firstsum">Canulado Ø7 rosca 16 +75mm</summary>
 
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Descripción</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Descripción</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-489</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 75mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-489</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 75mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-490</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 80mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-490</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 80mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-491</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 85mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-491</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 85mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-492</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 90mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-492</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 90mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-493</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 95mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-493</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 95mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-494</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 100mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-494</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 100mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-495</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 105mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-495</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 105mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-496</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 110mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-496</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 110mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-497</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 115mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-497</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 115mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-498</td>
-                                        <td class="text-left">D.7,0 R 16mm PF largo 120mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-498</td>
+                                        <td className="text-left">D.7,0 R 16mm PF largo 120mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -172,66 +172,66 @@ const CanuladoFresada = () => {
                         </details>
 
                         <details>
-                            <summary class="firstsum">Canulado Ø7 rosca 32</summary>
+                            <summary className="firstsum">Canulado Ø7 rosca 32</summary>
 
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Descripción</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Descripción</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-499</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 30mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-499</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 30mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-500</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 35mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-500</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 35mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-501</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 40mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-501</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 40mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-502</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 45mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-502</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 45mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-503</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 50mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-503</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 50mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-504</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 55mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-504</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 55mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-505</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 60mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-505</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 60mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-506</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 65mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-506</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 65mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-507</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 70mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-507</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 70mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-508</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 75mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-508</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 75mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -239,66 +239,66 @@ const CanuladoFresada = () => {
                         </details>
 
                         <details>
-                            <summary class="firstsum">Canulado Ø7 rosca 32 +75mm</summary>
+                            <summary className="firstsum">Canulado Ø7 rosca 32 +75mm</summary>
 
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Descripción</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Descripción</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-508</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 75mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-508</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 75mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-509</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 80mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-509</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 80mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-510</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 85mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-510</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 85mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-511</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 90mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-511</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 90mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-512</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 95mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-512</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 95mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-513</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 100mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-513</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 100mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-514</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 105mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-514</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 105mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-515</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 110mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-515</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 110mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-516</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 115mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-516</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 115mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-517</td>
-                                        <td class="text-left">D.7,0 R 32mm PF largo 120mm Tit</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-517</td>
+                                        <td className="text-left">D.7,0 R 32mm PF largo 120mm Tit</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>

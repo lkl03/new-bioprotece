@@ -48,63 +48,63 @@ const ClavoFemur = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/clavos-endomedulares/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div multitables">
+                    <div className="info-div multitables">
 
                         <details open={openIndex} onClick={() => closeAll()}>
-                            <summary class="firstsum">Clavo endomedular de femur Ø9</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <summary className="firstsum">Clavo endomedular de femur Ø9</summary>
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">30-001</td>
-                                        <td class="text-left">Ø9 x 300mm</td>
-                                        <td class="text-left">Acero</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">30-002</td>
-                                        <td class="text-left">Ø9 x 320mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-001</td>
+                                        <td className="text-left">Ø9 x 300mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-003</td>
-                                        <td class="text-left">Ø9 x 340mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-002</td>
+                                        <td className="text-left">Ø9 x 320mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-004</td>
-                                        <td class="text-left">Ø9 x 360mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-003</td>
+                                        <td className="text-left">Ø9 x 340mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-005</td>
-                                        <td class="text-left">Ø9 x 380mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-004</td>
+                                        <td className="text-left">Ø9 x 360mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-006</td>
-                                        <td class="text-left">Ø9 x 400mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr>
+                                        <td className="text-left code">30-005</td>
+                                        <td className="text-left">Ø9 x 380mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-007</td>
-                                        <td class="text-left">Ø9 x 420mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-006</td>
+                                        <td className="text-left">Ø9 x 400mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-008</td>
-                                        <td class="text-left">Ø9 x 440mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-007</td>
+                                        <td className="text-left">Ø9 x 420mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-009</td>
-                                        <td class="text-left">Ø9 x 460mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-008</td>
+                                        <td className="text-left">Ø9 x 440mm</td>
+                                        <td className="text-left">Acero</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-009</td>
+                                        <td className="text-left">Ø9 x 460mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
 
                                 </tbody>
@@ -112,60 +112,60 @@ const ClavoFemur = () => {
                         </details>
 
                         <details onClick={() => closeAll()}>
-                            <summary class="firstsum">Clavo endomedular de femur Ø10</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <summary className="firstsum">Clavo endomedular de femur Ø10</summary>
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">30-010</td>
-                                        <td class="text-left">Ø10 x 300mm</td>
-                                        <td class="text-left">Acero</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">30-011</td>
-                                        <td class="text-left">Ø10 x 320mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-010</td>
+                                        <td className="text-left">Ø10 x 300mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-012</td>
-                                        <td class="text-left">Ø10 x 340mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-011</td>
+                                        <td className="text-left">Ø10 x 320mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-013</td>
-                                        <td class="text-left">Ø10 x 360mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-012</td>
+                                        <td className="text-left">Ø10 x 340mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-014</td>
-                                        <td class="text-left">Ø10 x 380mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-013</td>
+                                        <td className="text-left">Ø10 x 360mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-015</td>
-                                        <td class="text-left">Ø10 x 400mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr>
+                                        <td className="text-left code">30-014</td>
+                                        <td className="text-left">Ø10 x 380mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-016</td>
-                                        <td class="text-left">Ø10 x 420mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-015</td>
+                                        <td className="text-left">Ø10 x 400mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-017</td>
-                                        <td class="text-left">Ø10 x 440mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-016</td>
+                                        <td className="text-left">Ø10 x 420mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-018</td>
-                                        <td class="text-left">Ø10 x 460mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-017</td>
+                                        <td className="text-left">Ø10 x 440mm</td>
+                                        <td className="text-left">Acero</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-018</td>
+                                        <td className="text-left">Ø10 x 460mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
 
                                 </tbody>
@@ -173,60 +173,60 @@ const ClavoFemur = () => {
                         </details>
 
                         <details onClick={() => closeAll()}>
-                            <summary class="firstsum">Clavo endomedular de femur Ø11</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <summary className="firstsum">Clavo endomedular de femur Ø11</summary>
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">30-019</td>
-                                        <td class="text-left">Ø11 x 300mm</td>
-                                        <td class="text-left">Acero</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">30-020</td>
-                                        <td class="text-left">Ø11 x 320mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-019</td>
+                                        <td className="text-left">Ø11 x 300mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-021</td>
-                                        <td class="text-left">Ø11 x 340mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-020</td>
+                                        <td className="text-left">Ø11 x 320mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-022</td>
-                                        <td class="text-left">Ø11 x 360mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-021</td>
+                                        <td className="text-left">Ø11 x 340mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-023</td>
-                                        <td class="text-left">Ø11 x 380mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-022</td>
+                                        <td className="text-left">Ø11 x 360mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-024</td>
-                                        <td class="text-left">Ø11 x 400mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr>
+                                        <td className="text-left code">30-023</td>
+                                        <td className="text-left">Ø11 x 380mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-025</td>
-                                        <td class="text-left">Ø11 x 420mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-024</td>
+                                        <td className="text-left">Ø11 x 400mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-026</td>
-                                        <td class="text-left">Ø11 x 440mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-025</td>
+                                        <td className="text-left">Ø11 x 420mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-027</td>
-                                        <td class="text-left">Ø11 x 460mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-026</td>
+                                        <td className="text-left">Ø11 x 440mm</td>
+                                        <td className="text-left">Acero</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-027</td>
+                                        <td className="text-left">Ø11 x 460mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
 
                                 </tbody>
@@ -234,60 +234,60 @@ const ClavoFemur = () => {
                         </details>
 
                         <details onClick={() => closeAll()}>
-                            <summary class="firstsum">Clavo endomedular de femur Ø12</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <summary className="firstsum">Clavo endomedular de femur Ø12</summary>
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">30-028</td>
-                                        <td class="text-left">Ø12 x 300mm</td>
-                                        <td class="text-left">Acero</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">30-029</td>
-                                        <td class="text-left">Ø12 x 320mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-028</td>
+                                        <td className="text-left">Ø12 x 300mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-030</td>
-                                        <td class="text-left">Ø12 x 340mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-029</td>
+                                        <td className="text-left">Ø12 x 320mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-031</td>
-                                        <td class="text-left">Ø12 x 360mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-030</td>
+                                        <td className="text-left">Ø12 x 340mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-032</td>
-                                        <td class="text-left">Ø12 x 380mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-031</td>
+                                        <td className="text-left">Ø12 x 360mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-033</td>
-                                        <td class="text-left">Ø12 x 400mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr>
+                                        <td className="text-left code">30-032</td>
+                                        <td className="text-left">Ø12 x 380mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-034</td>
-                                        <td class="text-left">Ø12 x 420mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-033</td>
+                                        <td className="text-left">Ø12 x 400mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-035</td>
-                                        <td class="text-left">Ø12 x 440mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-034</td>
+                                        <td className="text-left">Ø12 x 420mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-036</td>
-                                        <td class="text-left">Ø12 x 460mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-035</td>
+                                        <td className="text-left">Ø12 x 440mm</td>
+                                        <td className="text-left">Acero</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-036</td>
+                                        <td className="text-left">Ø12 x 460mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
 
                                 </tbody>
@@ -295,60 +295,60 @@ const ClavoFemur = () => {
                         </details>
 
                         <details onClick={() => closeAll()} >
-                            <summary class="firstsum">Clavo endomedular de femur Ø13</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <summary className="firstsum">Clavo endomedular de femur Ø13</summary>
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">30-037</td>
-                                        <td class="text-left">Ø13 x 300mm</td>
-                                        <td class="text-left">Acero</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">30-038</td>
-                                        <td class="text-left">Ø13 x 320mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-037</td>
+                                        <td className="text-left">Ø13 x 300mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-039</td>
-                                        <td class="text-left">Ø13 x 340mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-038</td>
+                                        <td className="text-left">Ø13 x 320mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-040</td>
-                                        <td class="text-left">Ø13 x 360mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-039</td>
+                                        <td className="text-left">Ø13 x 340mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">30-041</td>
-                                        <td class="text-left">Ø13 x 380mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">30-040</td>
+                                        <td className="text-left">Ø13 x 360mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-042</td>
-                                        <td class="text-left">Ø13 x 400mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr>
+                                        <td className="text-left code">30-041</td>
+                                        <td className="text-left">Ø13 x 380mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-043</td>
-                                        <td class="text-left">Ø13 x 420mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-042</td>
+                                        <td className="text-left">Ø13 x 400mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-044</td>
-                                        <td class="text-left">Ø13 x 440mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-043</td>
+                                        <td className="text-left">Ø13 x 420mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">30-045</td>
-                                        <td class="text-left">Ø13 x 460mm</td>
-                                        <td class="text-left">Acero</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-044</td>
+                                        <td className="text-left">Ø13 x 440mm</td>
+                                        <td className="text-left">Acero</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">30-045</td>
+                                        <td className="text-left">Ø13 x 460mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
 
                                 </tbody>

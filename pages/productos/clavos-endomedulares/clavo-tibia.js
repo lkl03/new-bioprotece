@@ -42,54 +42,54 @@ const ClavoTibia = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/clavos-endomedulares/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div multitables">
+                    <div className="info-div multitables">
 
                         <details open>
-                            <summary class="firstsum">Clavo de tibia Ø8</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <summary className="firstsum">Clavo de tibia Ø8</summary>
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">29-061</td>
-                                        <td class="text-left">Ø8 x 270mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-061</td>
+                                        <td className="text-left">Ø8 x 270mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-062</td>
-                                        <td class="text-left">Ø8 x 285mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-062</td>
+                                        <td className="text-left">Ø8 x 285mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-063</td>
-                                        <td class="text-left">Ø8 x 300mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-063</td>
+                                        <td className="text-left">Ø8 x 300mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-064</td>
-                                        <td class="text-left">Ø8 x 315mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-064</td>
+                                        <td className="text-left">Ø8 x 315mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-065</td>
-                                        <td class="text-left">Ø8 x 330mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-065</td>
+                                        <td className="text-left">Ø8 x 330mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-066</td>
-                                        <td class="text-left">Ø8 x 345mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-066</td>
+                                        <td className="text-left">Ø8 x 345mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-066</td>
-                                        <td class="text-left">Ø8 x 360mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-066</td>
+                                        <td className="text-left">Ø8 x 360mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -98,49 +98,49 @@ const ClavoTibia = () => {
 
                         <details>
                             <summary>Clavo de tibia Ø9</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">29-068</td>
-                                        <td class="text-left">Ø9 x 270mm</td>
-                                        <td class="text-left">Titanio</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">29-069</td>
-                                        <td class="text-left">Ø9 x 285mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-068</td>
+                                        <td className="text-left">Ø9 x 270mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-070</td>
-                                        <td class="text-left">Ø9 x 300mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-069</td>
+                                        <td className="text-left">Ø9 x 285mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-071</td>
-                                        <td class="text-left">Ø9 x 315mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-070</td>
+                                        <td className="text-left">Ø9 x 300mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-072</td>
-                                        <td class="text-left">Ø9 x 330mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-071</td>
+                                        <td className="text-left">Ø9 x 315mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-073</td>
-                                        <td class="text-left">Ø9 x 345mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr>
+                                        <td className="text-left code">29-072</td>
+                                        <td className="text-left">Ø9 x 330mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-181</td>
-                                        <td class="text-left">Ø9 x 360mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-073</td>
+                                        <td className="text-left">Ø9 x 345mm</td>
+                                        <td className="text-left">Titanio</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-181</td>
+                                        <td className="text-left">Ø9 x 360mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -149,54 +149,54 @@ const ClavoTibia = () => {
 
                         <details>
                             <summary>Clavo de tibia Ø10</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">29-183</td>
-                                        <td class="text-left">Ø10 x 270mm</td>
-                                        <td class="text-left">Titanio</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">29-074</td>
-                                        <td class="text-left">Ø10 x 285mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-183</td>
+                                        <td className="text-left">Ø10 x 270mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-075</td>
-                                        <td class="text-left">Ø10 x 300mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-074</td>
+                                        <td className="text-left">Ø10 x 285mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-076</td>
-                                        <td class="text-left">Ø10 x 315mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-075</td>
+                                        <td className="text-left">Ø10 x 300mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-077</td>
-                                        <td class="text-left">Ø10 x 330mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-076</td>
+                                        <td className="text-left">Ø10 x 315mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-078</td>
-                                        <td class="text-left">Ø10 x 345mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr>
+                                        <td className="text-left code">29-077</td>
+                                        <td className="text-left">Ø10 x 330mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-079</td>
-                                        <td class="text-left">Ø10 x 360mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-078</td>
+                                        <td className="text-left">Ø10 x 345mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-184</td>
-                                        <td class="text-left">Ø10 x 375mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-079</td>
+                                        <td className="text-left">Ø10 x 360mm</td>
+                                        <td className="text-left">Titanio</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-184</td>
+                                        <td className="text-left">Ø10 x 375mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -205,54 +205,54 @@ const ClavoTibia = () => {
 
                         <details>
                             <summary>Clavo de tibia Ø11</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">29-185</td>
-                                        <td class="text-left">Ø11 x 270mm</td>
-                                        <td class="text-left">Titanio</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">29-080</td>
-                                        <td class="text-left">Ø11 x 285mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-185</td>
+                                        <td className="text-left">Ø11 x 270mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-081</td>
-                                        <td class="text-left">Ø11 x 300mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-080</td>
+                                        <td className="text-left">Ø11 x 285mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-082</td>
-                                        <td class="text-left">Ø11 x 315mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-081</td>
+                                        <td className="text-left">Ø11 x 300mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-083</td>
-                                        <td class="text-left">Ø11 x 330mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-082</td>
+                                        <td className="text-left">Ø11 x 315mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-084</td>
-                                        <td class="text-left">Ø11 x 345mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr>
+                                        <td className="text-left code">29-083</td>
+                                        <td className="text-left">Ø11 x 330mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-186</td>
-                                        <td class="text-left">Ø11 x 360mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-084</td>
+                                        <td className="text-left">Ø11 x 345mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-187</td>
-                                        <td class="text-left">Ø11 x 375mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-186</td>
+                                        <td className="text-left">Ø11 x 360mm</td>
+                                        <td className="text-left">Titanio</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-187</td>
+                                        <td className="text-left">Ø11 x 375mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -261,54 +261,54 @@ const ClavoTibia = () => {
 
                         <details>
                             <summary>Clavo de tibia Ø12</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Medida</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Medida</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">29-188</td>
-                                        <td class="text-left">Ø12 x 270mm</td>
-                                        <td class="text-left">Titanio</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left code">29-189</td>
-                                        <td class="text-left">Ø12 x 285mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-188</td>
+                                        <td className="text-left">Ø12 x 270mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-190</td>
-                                        <td class="text-left">Ø12 x 300mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-189</td>
+                                        <td className="text-left">Ø12 x 285mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-195</td>
-                                        <td class="text-left">Ø12 x 315mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-190</td>
+                                        <td className="text-left">Ø12 x 300mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">29-196</td>
-                                        <td class="text-left">Ø12 x 330mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">29-195</td>
+                                        <td className="text-left">Ø12 x 315mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-197</td>
-                                        <td class="text-left">Ø12 x 345mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr>
+                                        <td className="text-left code">29-196</td>
+                                        <td className="text-left">Ø12 x 330mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-198</td>
-                                        <td class="text-left">Ø12 x 360mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-197</td>
+                                        <td className="text-left">Ø12 x 345mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
-                                    <tr class="lastr">
-                                        <td class="text-left code">29-199</td>
-                                        <td class="text-left">Ø12 x 375mm</td>
-                                        <td class="text-left">Titanio</td>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-198</td>
+                                        <td className="text-left">Ø12 x 360mm</td>
+                                        <td className="text-left">Titanio</td>
+                                    </tr>
+                                    <tr className="lastr">
+                                        <td className="text-left code">29-199</td>
+                                        <td className="text-left">Ø12 x 375mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>

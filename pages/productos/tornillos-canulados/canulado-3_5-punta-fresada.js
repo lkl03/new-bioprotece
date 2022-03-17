@@ -56,69 +56,69 @@ useEffect(() => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/tornillos-canulados/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div multitables">
+                    <div className="info-div multitables">
 
                         <details open>
-                            <summary class="firstsum">Canulado Ø3.5 rosca parcial</summary>
+                            <summary className="firstsum">Canulado Ø3.5 rosca parcial</summary>
 
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Longitud</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Longitud</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-137</td>
-                                        <td class="text-left">10mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-137</td>
+                                        <td className="text-left">10mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-138</td>
-                                        <td class="text-left">12mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-138</td>
+                                        <td className="text-left">12mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-139</td>
-                                        <td class="text-left">14mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-139</td>
+                                        <td className="text-left">14mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-140</td>
-                                        <td class="text-left">16mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-140</td>
+                                        <td className="text-left">16mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-141</td>
-                                        <td class="text-left">18mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-141</td>
+                                        <td className="text-left">18mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-142</td>
-                                        <td class="text-left">20mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-142</td>
+                                        <td className="text-left">20mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-143</td>
-                                        <td class="text-left">22mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-143</td>
+                                        <td className="text-left">22mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-144</td>
-                                        <td class="text-left">24mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-144</td>
+                                        <td className="text-left">24mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-145</td>
-                                        <td class="text-left">26mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-145</td>
+                                        <td className="text-left">26mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-146</td>
-                                        <td class="text-left">28mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-146</td>
+                                        <td className="text-left">28mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -126,86 +126,86 @@ useEffect(() => {
                         </details>
 
                         <details>
-                            <summary class="firstsum">Canulado Ø3.5 rosca parcial +30mm</summary>
+                            <summary className="firstsum">Canulado Ø3.5 rosca parcial +30mm</summary>
 
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Largo</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Largo</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-147</td>
-                                        <td class="text-left">30mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-147</td>
+                                        <td className="text-left">30mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-148</td>
-                                        <td class="text-left">32mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-148</td>
+                                        <td className="text-left">32mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-149</td>
-                                        <td class="text-left">34mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-149</td>
+                                        <td className="text-left">34mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-150</td>
-                                        <td class="text-left">36mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-150</td>
+                                        <td className="text-left">36mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-151</td>
-                                        <td class="text-left">38mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-151</td>
+                                        <td className="text-left">38mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-152</td>
-                                        <td class="text-left">40mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-152</td>
+                                        <td className="text-left">40mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-153</td>
-                                        <td class="text-left">42mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-153</td>
+                                        <td className="text-left">42mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-154</td>
-                                        <td class="text-left">44mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-154</td>
+                                        <td className="text-left">44mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-257</td>
-                                        <td class="text-left">45mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-257</td>
+                                        <td className="text-left">45mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-155</td>
-                                        <td class="text-left">46mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-155</td>
+                                        <td className="text-left">46mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-156</td>
-                                        <td class="text-left">48mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-156</td>
+                                        <td className="text-left">48mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-157</td>
-                                        <td class="text-left">50mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-157</td>
+                                        <td className="text-left">50mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-158</td>
-                                        <td class="text-left">55mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-158</td>
+                                        <td className="text-left">55mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-159</td>
-                                        <td class="text-left">60mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-159</td>
+                                        <td className="text-left">60mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -213,66 +213,66 @@ useEffect(() => {
                         </details>
 
                         <details>
-                            <summary class="firstsum">Canulado Ø3.5 rosca total</summary>
+                            <summary className="firstsum">Canulado Ø3.5 rosca total</summary>
 
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Longitud</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Longitud</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-354</td>
-                                        <td class="text-left">10mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-354</td>
+                                        <td className="text-left">10mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-355</td>
-                                        <td class="text-left">12mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-355</td>
+                                        <td className="text-left">12mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-356</td>
-                                        <td class="text-left">14mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-356</td>
+                                        <td className="text-left">14mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-357</td>
-                                        <td class="text-left">16mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-357</td>
+                                        <td className="text-left">16mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-358</td>
-                                        <td class="text-left">18mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-358</td>
+                                        <td className="text-left">18mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-359</td>
-                                        <td class="text-left">20mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-359</td>
+                                        <td className="text-left">20mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-360</td>
-                                        <td class="text-left">22mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-360</td>
+                                        <td className="text-left">22mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-361</td>
-                                        <td class="text-left">24mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-361</td>
+                                        <td className="text-left">24mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-362</td>
-                                        <td class="text-left">26mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-362</td>
+                                        <td className="text-left">26mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-363</td>
-                                        <td class="text-left">28mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-363</td>
+                                        <td className="text-left">28mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -280,86 +280,86 @@ useEffect(() => {
                         </details>
 
                         <details>
-                            <summary class="firstsum">Canulado Ø3.5 rosca total +30mm</summary>
+                            <summary className="firstsum">Canulado Ø3.5 rosca total +30mm</summary>
 
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Largo</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Largo</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-364</td>
-                                        <td class="text-left">30mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-364</td>
+                                        <td className="text-left">30mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-365</td>
-                                        <td class="text-left">32mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-365</td>
+                                        <td className="text-left">32mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-366</td>
-                                        <td class="text-left">34mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-366</td>
+                                        <td className="text-left">34mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-367</td>
-                                        <td class="text-left">36mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-367</td>
+                                        <td className="text-left">36mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-368</td>
-                                        <td class="text-left">38mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-368</td>
+                                        <td className="text-left">38mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-369</td>
-                                        <td class="text-left">40mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-369</td>
+                                        <td className="text-left">40mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-370</td>
-                                        <td class="text-left">42mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-370</td>
+                                        <td className="text-left">42mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-371</td>
-                                        <td class="text-left">44mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-371</td>
+                                        <td className="text-left">44mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-378</td>
-                                        <td class="text-left">45mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-378</td>
+                                        <td className="text-left">45mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-372</td>
-                                        <td class="text-left">46mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-372</td>
+                                        <td className="text-left">46mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-373</td>
-                                        <td class="text-left">48mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-373</td>
+                                        <td className="text-left">48mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-374</td>
-                                        <td class="text-left">50mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-374</td>
+                                        <td className="text-left">50mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-375</td>
-                                        <td class="text-left">55mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-375</td>
+                                        <td className="text-left">55mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-376</td>
-                                        <td class="text-left">60mm</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">60-376</td>
+                                        <td className="text-left">60mm</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>

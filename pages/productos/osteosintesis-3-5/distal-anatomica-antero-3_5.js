@@ -42,47 +42,47 @@ const DistalAnatomica = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/osteosintesis3-5/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod der</th>
-                                    <th class="text-left">Cod izq</th>
-                                    <th class="text-left">Orificios</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod der</th>
+                                    <th className="text-left">Cod izq</th>
+                                    <th className="text-left">Orificios</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">45-236</td>
-                                    <td class="text-left code">45-229</td>
-                                    <td class="text-left">5</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-236</td>
+                                    <td className="text-left code">45-229</td>
+                                    <td className="text-left">5</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-237</td>
-                                    <td class="text-left code">45-230</td>
-                                    <td class="text-left">7</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-237</td>
+                                    <td className="text-left code">45-230</td>
+                                    <td className="text-left">7</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-238</td>
-                                    <td class="text-left code">45-231</td>
-                                    <td class="text-left">9</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-238</td>
+                                    <td className="text-left code">45-231</td>
+                                    <td className="text-left">9</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-239</td>
-                                    <td class="text-left code">45-232</td>
-                                    <td class="text-left">11</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-239</td>
+                                    <td className="text-left code">45-232</td>
+                                    <td className="text-left">11</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">45-240</td>
-                                    <td class="text-left code">45-233</td>
-                                    <td class="text-left">13</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">45-240</td>
+                                    <td className="text-left code">45-233</td>
+                                    <td className="text-left">13</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
 
                             </tbody>

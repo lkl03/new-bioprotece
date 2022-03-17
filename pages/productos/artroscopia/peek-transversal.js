@@ -38,33 +38,33 @@ const PeekTransversal = () => {
                         <ItemImg src="/img/items/artroscopia/peek-tornillo-kurosaca-romo.webp" alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
                     <div className="info-div">
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Diam</th>
-                                    <th class="text-left">mm</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Diam</th>
+                                    <th className="text-left">mm</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">67-020</td>
-                                    <td class="text-left">7</td>
-                                    <td class="text-center">40</td>
-                                    <td class="text-left">Peek</td>
+                                    <td className="text-left code">67-020</td>
+                                    <td className="text-left">7</td>
+                                    <td className="text-center">40</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">67-021</td>
-                                    <td class="text-left">7</td>
-                                    <td class="text-center">45</td>
-                                    <td class="text-left">Peek</td>
+                                    <td className="text-left code">67-021</td>
+                                    <td className="text-left">7</td>
+                                    <td className="text-center">45</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">67-022</td>
-                                    <td class="text-left">7</td>
-                                    <td class="text-center">50</td>
-                                    <td class="text-left">Peek</td>
+                                    <td className="text-left code">67-022</td>
+                                    <td className="text-left">7</td>
+                                    <td className="text-center">50</td>
+                                    <td className="text-left">Peek</td>
                                 </tr>
 
                             </tbody>

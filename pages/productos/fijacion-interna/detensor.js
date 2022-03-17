@@ -41,36 +41,36 @@ const Detensor = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/fijacion-interna/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Medida</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Medida</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">33-298</td>
-                                    <td class="text-left">Ø1.0 x 120mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">33-298</td>
+                                    <td className="text-left">Ø1.0 x 120mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">33-299</td>
-                                    <td class="text-left">Ø1.25 x 120mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">33-299</td>
+                                    <td className="text-left">Ø1.25 x 120mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">33-300</td>
-                                    <td class="text-left">Ø1.5 x 120mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">33-300</td>
+                                    <td className="text-left">Ø1.5 x 120mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">33-301</td>
-                                    <td class="text-left">Ø2.0 x 120mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">33-301</td>
+                                    <td className="text-left">Ø2.0 x 120mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
 
                             </tbody>

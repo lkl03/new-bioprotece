@@ -38,51 +38,51 @@ const GrapaIQL = () => {
                         <ItemImg src="/img/items/artroscopia/grapa-iql.webp" alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
                     <div className="info-div">
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Medida</th>
-                                    <th class="text-left">Pines</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Medida</th>
+                                    <th className="text-left">Pines</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">68-004</td>
-                                    <td class="text-left">Chica</td>
-                                    <td class="text-center">3</td>
-                                    <td class="text-left">Cromo cobalto</td>
+                                    <td className="text-left code">68-004</td>
+                                    <td className="text-left">Chica</td>
+                                    <td className="text-center">3</td>
+                                    <td className="text-left">Cromo cobalto</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">68-005</td>
-                                    <td class="text-left">Mediana</td>
-                                    <td class="text-center">5</td>
-                                    <td class="text-left">Cromo cobalto</td>
+                                    <td className="text-left code">68-005</td>
+                                    <td className="text-left">Mediana</td>
+                                    <td className="text-center">5</td>
+                                    <td className="text-left">Cromo cobalto</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">68-006</td>
-                                    <td class="text-left">Grande</td>
-                                    <td class="text-center">7</td>
-                                    <td class="text-left">Cromo cobalto</td>
+                                    <td className="text-left code">68-006</td>
+                                    <td className="text-left">Grande</td>
+                                    <td className="text-center">7</td>
+                                    <td className="text-left">Cromo cobalto</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">68-016</td>
-                                    <td class="text-left">Chica</td>
-                                    <td class="text-center">3</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">68-016</td>
+                                    <td className="text-left">Chica</td>
+                                    <td className="text-center">3</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">68-017</td>
-                                    <td class="text-left">Mediana</td>
-                                    <td class="text-center">5</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">68-017</td>
+                                    <td className="text-left">Mediana</td>
+                                    <td className="text-center">5</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
-                                <tr class="lastr">
-                                    <td class="text-left code">68-018</td>
-                                    <td class="text-left">Grande</td>
-                                    <td class="text-center">7</td>
-                                    <td class="text-left">Titanio</td>
+                                <tr className="lastr">
+                                    <td className="text-left code">68-018</td>
+                                    <td className="text-left">Grande</td>
+                                    <td className="text-center">7</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
 
                             </tbody>

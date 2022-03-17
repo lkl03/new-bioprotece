@@ -39,29 +39,29 @@ const PlacasDistal = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/osteosintesis3-5/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod der</th>
-                                    <th class="text-left">Cod izq</th>
-                                    <th class="text-left">Orificios</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod der</th>
+                                    <th className="text-left">Cod izq</th>
+                                    <th className="text-left">Orificios</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">46-001</td>
-                                    <td class="text-left code">46-002</td>
-                                    <td class="text-left">8</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">46-001</td>
+                                    <td className="text-left code">46-002</td>
+                                    <td className="text-left">8</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">46-003</td>
-                                    <td class="text-left code">46-003</td>
-                                    <td class="text-left">5</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">46-003</td>
+                                    <td className="text-left code">46-003</td>
+                                    <td className="text-left">5</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                             </tbody>
                         </table>

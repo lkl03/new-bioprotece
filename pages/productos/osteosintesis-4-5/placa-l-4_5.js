@@ -42,79 +42,79 @@ const PlacaT = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/osteosintesis4-5/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div multitables">
+                    <div className="info-div multitables">
 
                         <details open>
-                            <summary class="firstsum">Placa en "L" simple angulación</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <summary className="firstsum">Placa en "L" simple angulación</summary>
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código der.</th>
-                                        <th class="text-left">Código izq.</th>
-                                        <th class="text-left">Orificios</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código der.</th>
+                                        <th className="text-left">Código izq.</th>
+                                        <th className="text-left">Orificios</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">48-274</td>
-                                        <td class="text-left code">48-264</td>
-                                        <td class="text-left">3</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-274</td>
+                                        <td className="text-left code">48-264</td>
+                                        <td className="text-left">3</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-275</td>
-                                        <td class="text-left code">48-265</td>
-                                        <td class="text-left">4</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-275</td>
+                                        <td className="text-left code">48-265</td>
+                                        <td className="text-left">4</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-276</td>
-                                        <td class="text-left code">48-266</td>
-                                        <td class="text-left">5</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-276</td>
+                                        <td className="text-left code">48-266</td>
+                                        <td className="text-left">5</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-277</td>
-                                        <td class="text-left code">48-267</td>
-                                        <td class="text-left">6</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-277</td>
+                                        <td className="text-left code">48-267</td>
+                                        <td className="text-left">6</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-278</td>
-                                        <td class="text-left code">48-268</td>
-                                        <td class="text-left">7</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-278</td>
+                                        <td className="text-left code">48-268</td>
+                                        <td className="text-left">7</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-279</td>
-                                        <td class="text-left code">48-269</td>
-                                        <td class="text-left">8</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-279</td>
+                                        <td className="text-left code">48-269</td>
+                                        <td className="text-left">8</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-280</td>
-                                        <td class="text-left code">48-270</td>
-                                        <td class="text-left">9</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-280</td>
+                                        <td className="text-left code">48-270</td>
+                                        <td className="text-left">9</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-281</td>
-                                        <td class="text-left code">48-271</td>
-                                        <td class="text-left">10</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-281</td>
+                                        <td className="text-left code">48-271</td>
+                                        <td className="text-left">10</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-282</td>
-                                        <td class="text-left code">48-272</td>
-                                        <td class="text-left">11</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-282</td>
+                                        <td className="text-left code">48-272</td>
+                                        <td className="text-left">11</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-283</td>
-                                        <td class="text-left code">48-273</td>
-                                        <td class="text-left">12</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-283</td>
+                                        <td className="text-left code">48-273</td>
+                                        <td className="text-left">12</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
@@ -122,70 +122,70 @@ const PlacaT = () => {
                         </details>
 
                         <details>
-                            <summary class="firstsum">Placa en "L" doble angulación</summary>
-                            <table class="tabla-chica mini" data-aos="fade-left">
+                            <summary className="firstsum">Placa en "L" doble angulación</summary>
+                            <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código der.</th>
-                                        <th class="text-left">Código izq.</th>
-                                        <th class="text-left">Orificios</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código der.</th>
+                                        <th className="text-left">Código izq.</th>
+                                        <th className="text-left">Orificios</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">48-304</td>
-                                        <td class="text-left code">48-294</td>
-                                        <td class="text-left">3</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-304</td>
+                                        <td className="text-left code">48-294</td>
+                                        <td className="text-left">3</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-305</td>
-                                        <td class="text-left code">48-295</td>
-                                        <td class="text-left">4</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-305</td>
+                                        <td className="text-left code">48-295</td>
+                                        <td className="text-left">4</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-306</td>
-                                        <td class="text-left code">48-296</td>
-                                        <td class="text-left">5</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-306</td>
+                                        <td className="text-left code">48-296</td>
+                                        <td className="text-left">5</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-307</td>
-                                        <td class="text-left code">48-297</td>
-                                        <td class="text-left">6</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-307</td>
+                                        <td className="text-left code">48-297</td>
+                                        <td className="text-left">6</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-309</td>
-                                        <td class="text-left code">48-298</td>
-                                        <td class="text-left">7</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-309</td>
+                                        <td className="text-left code">48-298</td>
+                                        <td className="text-left">7</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-310</td>
-                                        <td class="text-left code">48-299</td>
-                                        <td class="text-left">8</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-310</td>
+                                        <td className="text-left code">48-299</td>
+                                        <td className="text-left">8</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-311</td>
-                                        <td class="text-left code">48-300</td>
-                                        <td class="text-left">9</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-311</td>
+                                        <td className="text-left code">48-300</td>
+                                        <td className="text-left">9</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-312</td>
-                                        <td class="text-left code">48-301</td>
-                                        <td class="text-left">10</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-312</td>
+                                        <td className="text-left code">48-301</td>
+                                        <td className="text-left">10</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">48-313</td>
-                                        <td class="text-left code">48-302</td>
-                                        <td class="text-left">12</td>
-                                        <td class="text-left">Titanio</td>
+                                        <td className="text-left code">48-313</td>
+                                        <td className="text-left code">48-302</td>
+                                        <td className="text-left">12</td>
+                                        <td className="text-left">Titanio</td>
                                     </tr>
 
                                 </tbody>
