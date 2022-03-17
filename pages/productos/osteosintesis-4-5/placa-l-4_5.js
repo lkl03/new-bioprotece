@@ -45,7 +45,7 @@ const PlacaT = () => {
                     <div className="info-div multitables">
 
                         <details open>
-                            <summary className="firstsum">Placa en "L" simple angulación</summary>
+                            <summary className="firstsum">Placa en `&quot;`L`&#34;` simple angulación</summary>
                             <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
@@ -122,7 +122,7 @@ const PlacaT = () => {
                         </details>
 
                         <details>
-                            <summary className="firstsum">Placa en "L" doble angulación</summary>
+                            <summary className="firstsum">Placa en `&quot;`L`&#34;` doble angulación</summary>
                             <table className="tabla-chica mini" data-aos="fade-left">
                                 <thead>
                                     <tr>
