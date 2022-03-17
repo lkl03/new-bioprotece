@@ -1,4 +1,4 @@
-import { ListaPlus, ListaNormal } from "../../../components/Equipamiento/Lists/Listmini.js";
+import { ListaPlus, ListaNormal } from "../../../components/Equipamiento/Lists/ListMini.js";
 import {
   ProductSection,
   Container,
