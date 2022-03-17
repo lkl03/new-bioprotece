@@ -7,7 +7,7 @@ import {
     ImageDiv,
 } from '../../../styles/StyledItems'
 import ScrollArrow from '../../../components/Generales/ScrollArrow'
-import Pdf from '../../../components/Generales/pdf'
+import Pdf from '../../../components/Generales/Pdf'
 import NavProd from '../../../components/Navbar/NavProd'
 import Redirecter from '../../../components/Redirecter'
 
