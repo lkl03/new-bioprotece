@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps, router }) {
           <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments)};
-            gtag('js', new Date());
-            gtag('config', 'UA-215784134-1');
+            gtag(`&#39;`js`&#39;`, new Date());
+            gtag(`&#39;`config`&#39;`, `&#39;`UA-215784134-1`&#39;`);
           </script>
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
