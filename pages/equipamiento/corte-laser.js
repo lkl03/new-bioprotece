@@ -1,7 +1,5 @@
 import React from "react";
-import { useRouter } from "next/router";
 import ScrollArrow from '../../components/Generales/ScrollArrow'
-import { EquipoListPlus } from "../../components/Equipamiento/EquipoList";
 import {
     MachineSection,
     Grid,
@@ -22,12 +20,7 @@ import ContactTo from '../../components/Generales/ContactTo'
 import Nav from '../../components/Navbar/Nav'
 
 
-const Machine = (props) => {
-    const router = useRouter();
-
-    const equipo = EquipoListPlus.find((item) => item.id === router.query.id);
-
-    const { title2, modelo, render, p, video, pmodelo } = equipo || "";
+const Machine = () => {
     return (
         <>
             <Nav />
