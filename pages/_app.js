@@ -19,13 +19,6 @@ function MyApp({ Component, pageProps, router }) {
     <>
       <Layout>
         <Head>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-215784134-1"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)};
-            gtag(`&#39;`js`&#39;`, new Date());
-            gtag(`&#39;`config`&#39;`, `&#39;`UA-215784134-1`&#39;`);
-          </script>
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
