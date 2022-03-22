@@ -46,7 +46,7 @@ const ClavoTibia = () => {
 
                         <details open>
                             <summary className="firstsum">Clavo de tibia Ø8</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -98,7 +98,7 @@ const ClavoTibia = () => {
 
                         <details>
                             <summary>Clavo de tibia Ø9</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -149,7 +149,7 @@ const ClavoTibia = () => {
 
                         <details>
                             <summary>Clavo de tibia Ø10</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -205,7 +205,7 @@ const ClavoTibia = () => {
 
                         <details>
                             <summary>Clavo de tibia Ø11</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -261,7 +261,7 @@ const ClavoTibia = () => {
 
                         <details>
                             <summary>Clavo de tibia Ø12</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>

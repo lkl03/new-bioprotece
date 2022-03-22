@@ -13,6 +13,17 @@ import Redirecter from '../../../components/Redirecter'
 
 
 const Herbert = () => {
+    
+    useEffect(() => {
+        let details = [...document.querySelectorAll('details')];
+        document.addEventListener('click', function(e) {
+          if (!details.some(f => f.contains(e.target))) {
+            details.forEach(f => f.removeAttribute('open'));
+          } else {
+            details.forEach(f => !f.contains(e.target) ? f.removeAttribute('open') : '');
+          }
+        })
+    }, [])
 
     const titulo = 'Tornillo mini Herbert Ø2.0 y Ø2.5';
     const img = 'mini-herbert';
@@ -33,7 +44,7 @@ const Herbert = () => {
                         <details open>
                             <summary className="firstsum">Tornillo Mini Herbert Ø2.0</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -105,7 +116,7 @@ const Herbert = () => {
                         <details>
                             <summary className="firstsum">Tornillo Mini Herbert Ø2.5</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>

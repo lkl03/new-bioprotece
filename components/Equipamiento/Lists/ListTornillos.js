@@ -14,6 +14,27 @@ export const ListaPlus = [
         img: '/img/productos/tornillos/img7.webp'
     },
 
+    {
+        title: 'Tornillo de titanio para calcáneo sin cabeza',
+        url: 'https://drive.google.com/file/d/1FJf5mgAy4yjjD6B0sU4Ib6x21pCXdW2i/view',
+        id: 'tornillo-calcaneo-sincabeza',
+        img: '/img/productos/tornillos/img2.webp'
+    },
+
+    {
+        title: 'Tornillo de titanio para calcáneo con cabeza',
+        url: 'https://drive.google.com/file/d/1FJf5mgAy4yjjD6B0sU4Ib6x21pCXdW2i/view',
+        id: 'tornillo-calcaneo-cabeza',
+        img: '/img/productos/tornillos/img5.webp'
+    },
+
+    {
+        title: 'Tornillo cerrojo titanio 4.9',
+        url: 'https://drive.google.com/file/d/1FJf5mgAy4yjjD6B0sU4Ib6x21pCXdW2i/view',
+        id: 'tornillo-cerrojo-4_9',
+        img: '/img/productos/tornillos/img6.webp'
+    },
+
 ]
 
 export const ListaNormal = [
@@ -27,24 +48,6 @@ export const ListaNormal = [
         title: 'Tornillo de titanio Barouck',
         id: 'tornillo-titanio-barouck',
         img: '/img/productos/tornillos/img3.webp'
-    },
-
-    {
-        title: 'Tornillo de titanio para calcáneo sin cabeza',
-        id: 'tornillo-calcaneo-sincabeza',
-        img: '/img/productos/tornillos/img2.webp'
-    },
-
-    {
-        title: 'Tornillo de titanio para calcáneo con cabeza',
-        id: 'tornillo-calcaneo-cabeza',
-        img: '/img/productos/tornillos/img5.webp'
-    },
-
-    {
-        title: 'Tornillo cerrojo titanio 4.9',
-        id: 'tornillo-cerrojo-4_9',
-        img: '/img/productos/tornillos/img6.webp'
     },
     
 ]

@@ -127,9 +127,6 @@ const Nav = () => {
                                         <a>clavos placa</a>
                                     </Link>
                                 </li>
-                            </ul>
-
-                            <ul className="list">
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/fijacion-interna'  >
                                         <a className="circle" style={{ backgroundImage: `url(../../img/productos/fijacion-interna/img4.webp)` }}></a>
@@ -138,6 +135,9 @@ const Nav = () => {
                                         <a>fijacion interna</a>
                                     </Link>
                                 </li>
+                            </ul>
+
+                            <ul className="list">
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/mini-placas'  >
                                         <a className="circle" style={{ backgroundImage: `url(../../img/productos/mini-placas/img3.webp)` }}></a>
@@ -162,9 +162,6 @@ const Nav = () => {
                                         <a>osteosintesis 3.5</a>
                                     </Link>
                                 </li>
-                            </ul>
-
-                            <ul className="list">
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/poliaxial'  >
                                         <a className="circle" style={{ backgroundImage: `url(../../img/productos/poliaxial/img1.webp)` }}></a>
@@ -179,6 +176,17 @@ const Nav = () => {
                                     </Link>
                                     <Link href='../productos/rodilla'  >
                                         <a>rodilla</a>
+                                    </Link>
+                                </li>
+                            </ul>
+
+                            <ul className="list">
+                                <li className="dropLi" onClick={() => cerrar()}>
+                                    <Link href='../productos/espaciadores'  >
+                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/tornillos-canulados/img4.webp)` }}></a>
+                                    </Link>
+                                    <Link href='../productos/espaciadores'  >
+                                        <a>espaciadores</a>
                                     </Link>
                                 </li>
                                 <li className="dropLi" onClick={() => cerrar()}>

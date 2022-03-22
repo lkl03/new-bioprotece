@@ -46,7 +46,7 @@ const PlacaT = () => {
 
                         <details open>
                             <summary className="firstsum">Placa en `&quot;`L`&#34;` simple angulación</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código der.</th>
@@ -123,7 +123,7 @@ const PlacaT = () => {
 
                         <details>
                             <summary className="firstsum">Placa en `&quot;`L`&#34;` doble angulación</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código der.</th>

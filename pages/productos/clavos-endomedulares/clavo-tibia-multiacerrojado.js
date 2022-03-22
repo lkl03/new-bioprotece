@@ -45,7 +45,7 @@ const Endbotton = () => {
                     <div className="info-div multitables">
                         <details open>
                             <summary className="firstsum">Clavo de tibia multiacerrojado Ø8</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -91,7 +91,7 @@ const Endbotton = () => {
 
                         <details>
                             <summary>Clavo de tibia multiacerrojado Ø9</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -137,7 +137,7 @@ const Endbotton = () => {
 
                         <details>
                             <summary>Clavo de tibia multiacerrojado Ø10</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -183,7 +183,7 @@ const Endbotton = () => {
 
                         <details>
                             <summary>Clavo de tibia multiacerrojado Ø11</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>

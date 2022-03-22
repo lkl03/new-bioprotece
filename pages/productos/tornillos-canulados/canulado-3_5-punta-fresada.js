@@ -61,7 +61,7 @@ useEffect(() => {
                         <details open>
                             <summary className="firstsum">Canulado Ø3.5 rosca parcial</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -128,7 +128,7 @@ useEffect(() => {
                         <details>
                             <summary className="firstsum">Canulado Ø3.5 rosca parcial +30mm</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -215,7 +215,7 @@ useEffect(() => {
                         <details>
                             <summary className="firstsum">Canulado Ø3.5 rosca total</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -282,7 +282,7 @@ useEffect(() => {
                         <details>
                             <summary className="firstsum">Canulado Ø3.5 rosca total +30mm</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>

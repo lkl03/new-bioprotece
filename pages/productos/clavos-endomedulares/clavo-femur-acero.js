@@ -52,7 +52,7 @@ const ClavoFemur = () => {
 
                         <details open={openIndex} onClick={() => closeAll()}>
                             <summary className="firstsum">Clavo endomedular de femur Ø9</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -113,7 +113,7 @@ const ClavoFemur = () => {
 
                         <details onClick={() => closeAll()}>
                             <summary className="firstsum">Clavo endomedular de femur Ø10</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -174,7 +174,7 @@ const ClavoFemur = () => {
 
                         <details onClick={() => closeAll()}>
                             <summary className="firstsum">Clavo endomedular de femur Ø11</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -235,7 +235,7 @@ const ClavoFemur = () => {
 
                         <details onClick={() => closeAll()}>
                             <summary className="firstsum">Clavo endomedular de femur Ø12</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -296,7 +296,7 @@ const ClavoFemur = () => {
 
                         <details onClick={() => closeAll()} >
                             <summary className="firstsum">Clavo endomedular de femur Ø13</summary>
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>

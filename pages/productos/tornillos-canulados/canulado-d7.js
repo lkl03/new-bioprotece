@@ -45,7 +45,7 @@ const CanuladoFresada = () => {
                         <details open>
                             <summary className="firstsum">Canulado Ø7 Rosca 16</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -107,7 +107,7 @@ const CanuladoFresada = () => {
                         <details>
                             <summary className="firstsum">Canulado Ø7 rosca 16 +75mm</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -174,7 +174,7 @@ const CanuladoFresada = () => {
                         <details>
                             <summary className="firstsum">Canulado Ø7 rosca 32</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
@@ -241,7 +241,7 @@ const CanuladoFresada = () => {
                         <details>
                             <summary className="firstsum">Canulado Ø7 rosca 32 +75mm</summary>
 
-                            <table className="tabla-chica mini" data-aos="fade-left">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
                                         <th className="text-left">Código</th>
