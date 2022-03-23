@@ -87,7 +87,7 @@ const Nav = () => {
                                 <a>Contacto</a>
                             </Link>
                         </li>
-                        {dropdown && <div class="dropdown-menu" data-aos='fade-right'>
+                        {dropdown && <div className="dropdown-menu" data-aos='fade-right'>
                             <ul className="list">
                                 {Menu1.map((item, index) => {
                                     return (

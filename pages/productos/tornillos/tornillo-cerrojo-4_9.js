@@ -39,21 +39,21 @@ const Herbert = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/tornillos/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Código</th>
-                                    <th class="text-left">Descripción</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Código</th>
+                                    <th className="text-left">Descripción</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">34-223</td>
-                                    <td class="text-left">Ø4.9 largo 90mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">34-223</td>
+                                    <td className="text-left">Ø4.9 largo 90mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                             </tbody>
                         </table>

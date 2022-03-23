@@ -105,7 +105,7 @@ const Nav = () => {
                                 </li>
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/cadera'  >
-                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/cadera/img3.webp)` }}></a>
+                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/Cadera/img3.webp)` }}></a>
                                     </Link>
                                     <Link href='../productos/cadera'  >
                                         <a>cadera</a>
@@ -149,7 +149,7 @@ const Nav = () => {
                                 </li>
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/osteosintesis-4-5'  >
-                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/osteosintesis-4-5/img3.webp)` }}></a>
+                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/Osteosintesis-4-5/img3.webp)` }}></a>
                                     </Link>
                                     <Link href='../productos/osteosintesis-4-5'  >
                                         <a>osteosintesis 4.5</a>
@@ -157,7 +157,7 @@ const Nav = () => {
                                 </li>
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/osteosintesis-3-5'  >
-                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/osteosintesis-3-5/img2.webp)` }}></a>
+                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/Osteosintesis-3-5/img2.webp)` }}></a>
                                     </Link>
                                     <Link href='../productos/osteosintesis-3-5'  >
                                         <a>osteosintesis 3.5</a>
@@ -173,7 +173,7 @@ const Nav = () => {
                                 </li>
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/rodilla'  >
-                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/rodilla/img4.webp)` }}></a>
+                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/Rodilla/img4.webp)` }}></a>
                                     </Link>
                                     <Link href='../productos/rodilla'  >
                                         <a>rodilla</a>
@@ -184,7 +184,7 @@ const Nav = () => {
                             <ul className="list">
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/espaciadores'  >
-                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/tornillos-canulados/img4.webp)` }}></a>
+                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/espaciadores/img1.webp)` }}></a>
                                     </Link>
                                     <Link href='../productos/espaciadores'  >
                                         <a>espaciadores</a>

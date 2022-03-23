@@ -25,18 +25,19 @@ const Footer = () => {
                                 <li><Link href="/productos/cadera">Cadera</Link></li>
                                 <li><Link href="/productos/clavos-endomedulares">Clavos Endomedulares</Link></li>
                                 <li><Link href="/productos/clavos-placa">Clavos Placa</Link></li>
+                                <li><Link href="/productos/fijacion-interna">Fijación Interna</Link></li>
                             </ul>
                             <ul className="box">
                                 <li className="link_nameh">Other services</li>
-                                <li><Link href="/productos/fijacion-interna">Fijación Interna</Link></li>
                                 <li><Link href="/productos/mini-placas">Mini Placas</Link></li>
                                 <li><Link href="/productos/osteosintesis-4-5">Osteosíntesis 4.5</Link></li>
                                 <li><Link href="/productos/osteosintesis-3-5">Osteosíntesis 3.5</Link></li>
+                                <li><Link href="/productos/poliaxial">Poliaxial</Link></li>
+                                <li><Link href="/productos/rodilla">Rodilla</Link></li>
                             </ul>
                             <ul className="box">
                                 <li className="link_nameh">Other services</li>
-                                <li><Link href="/productos/poliaxial">Poliaxial</Link></li>
-                                <li><Link href="/productos/rodilla">Rodilla</Link></li>
+                                <li><Link href="/productos/espaciadores">Espaciadores</Link></li>
                                 <li><Link href="/productos/tornillos">Tornillos</Link></li>
                                 <li><Link href="/productos/tornillos-canulados">Tornillos canulados</Link></li>
                                 <li><a href="#" /></li>

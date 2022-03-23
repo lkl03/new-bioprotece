@@ -183,7 +183,7 @@ const Nav = () => {
                             <ul className="list">
                                 <li className="dropLi" onClick={() => cerrar()}>
                                     <Link href='../productos/espaciadores'  >
-                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/tornillos-canulados/img4.webp)` }}></a>
+                                        <a className="circle" style={{ backgroundImage: `url(../../img/productos/espaciadores/img1.webp)` }}></a>
                                     </Link>
                                     <Link href='../productos/espaciadores'  >
                                         <a>espaciadores</a>

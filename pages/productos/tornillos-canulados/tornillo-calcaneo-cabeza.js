@@ -56,119 +56,119 @@ useEffect(() => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/tornillos-canulados/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div multitables">
+                    <div className="info-div multitables">
 
                         <details open>
-                            <summary class="firstsum">Canulado Ø7.0 radio 16mm</summary>
+                            <summary className="firstsum">Canulado Ø7.0 radio 16mm</summary>
 
-                            <table class="tabla-chica mini">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Descripción</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Descripción</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-001</td>
-                                        <td class="text-left">Ø7.0 largo 30mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-001</td>
+                                        <td className="text-left">Ø7.0 largo 30mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-002</td>
-                                        <td class="text-left">Ø7.0 largo 35mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-002</td>
+                                        <td className="text-left">Ø7.0 largo 35mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-003</td>
-                                        <td class="text-left">Ø7.0 largo 40mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-003</td>
+                                        <td className="text-left">Ø7.0 largo 40mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-004</td>
-                                        <td class="text-left">Ø7.0 largo 45mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-004</td>
+                                        <td className="text-left">Ø7.0 largo 45mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-005</td>
-                                        <td class="text-left">Ø7.0 largo 50mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-005</td>
+                                        <td className="text-left">Ø7.0 largo 50mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-006</td>
-                                        <td class="text-left">Ø7.0 largo 55mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-006</td>
+                                        <td className="text-left">Ø7.0 largo 55mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-007</td>
-                                        <td class="text-left">Ø7.0 largo 60mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-007</td>
+                                        <td className="text-left">Ø7.0 largo 60mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-008</td>
-                                        <td class="text-left">Ø7.0 largo 65mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-008</td>
+                                        <td className="text-left">Ø7.0 largo 65mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-009</td>
-                                        <td class="text-left">Ø7.0 largo 70mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-009</td>
+                                        <td className="text-left">Ø7.0 largo 70mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-010</td>
-                                        <td class="text-left">Ø7.0 largo 75mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-010</td>
+                                        <td className="text-left">Ø7.0 largo 75mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-011</td>
-                                        <td class="text-left">Ø7.0 largo 80mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-011</td>
+                                        <td className="text-left">Ø7.0 largo 80mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-012</td>
-                                        <td class="text-left">Ø7.0 largo 85mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-012</td>
+                                        <td className="text-left">Ø7.0 largo 85mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-013</td>
-                                        <td class="text-left">Ø7.0 largo 90mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-013</td>
+                                        <td className="text-left">Ø7.0 largo 90mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-014</td>
-                                        <td class="text-left">Ø7.0 largo 95mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-014</td>
+                                        <td className="text-left">Ø7.0 largo 95mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-015</td>
-                                        <td class="text-left">Ø7.0 largo 100mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-015</td>
+                                        <td className="text-left">Ø7.0 largo 100mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-016</td>
-                                        <td class="text-left">Ø7.0 largo 105mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-016</td>
+                                        <td className="text-left">Ø7.0 largo 105mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-017</td>
-                                        <td class="text-left">Ø7.0 largo 110mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-017</td>
+                                        <td className="text-left">Ø7.0 largo 110mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-018</td>
-                                        <td class="text-left">Ø7.0 largo 115mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-018</td>
+                                        <td className="text-left">Ø7.0 largo 115mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-019</td>
-                                        <td class="text-left">Ø7.0 largo 120mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-019</td>
+                                        <td className="text-left">Ø7.0 largo 120mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-020</td>
-                                        <td class="text-left">Ø7.0 largo 125mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-020</td>
+                                        <td className="text-left">Ø7.0 largo 125mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
 
                                 </tbody>
@@ -176,106 +176,106 @@ useEffect(() => {
                         </details>
 
                         <details>
-                            <summary class="firstsum">Canulado Ø7.0 radio 32mm</summary>
+                            <summary className="firstsum">Canulado Ø7.0 radio 32mm</summary>
 
-                            <table class="tabla-chica mini">
+                            <table className="tabla-chica mini">
                                 <thead>
                                     <tr>
-                                        <th class="text-left">Código</th>
-                                        <th class="text-left">Descripción</th>
-                                        <th class="text-left">Material</th>
+                                        <th className="text-left">Código</th>
+                                        <th className="text-left">Descripción</th>
+                                        <th className="text-left">Material</th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-hover">
+                                <tbody className="table-hover">
                                     <tr>
-                                        <td class="text-left code">60-021</td>
-                                        <td class="text-left">Ø7.0 largo 30mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-021</td>
+                                        <td className="text-left">Ø7.0 largo 30mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-022</td>
-                                        <td class="text-left">Ø7.0 largo 35mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-022</td>
+                                        <td className="text-left">Ø7.0 largo 35mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-023</td>
-                                        <td class="text-left">Ø7.0 largo 40mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-023</td>
+                                        <td className="text-left">Ø7.0 largo 40mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-024</td>
-                                        <td class="text-left">Ø7.0 largo 45mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-024</td>
+                                        <td className="text-left">Ø7.0 largo 45mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-025</td>
-                                        <td class="text-left">Ø7.0 largo 50mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-025</td>
+                                        <td className="text-left">Ø7.0 largo 50mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-026</td>
-                                        <td class="text-left">Ø7.0 largo 55mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-026</td>
+                                        <td className="text-left">Ø7.0 largo 55mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-027</td>
-                                        <td class="text-left">Ø7.0 largo 60mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-027</td>
+                                        <td className="text-left">Ø7.0 largo 60mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-028</td>
-                                        <td class="text-left">Ø7.0 largo 65mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-028</td>
+                                        <td className="text-left">Ø7.0 largo 65mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-029</td>
-                                        <td class="text-left">Ø7.0 largo 70mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-029</td>
+                                        <td className="text-left">Ø7.0 largo 70mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-030</td>
-                                        <td class="text-left">Ø7.0 largo 75mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-030</td>
+                                        <td className="text-left">Ø7.0 largo 75mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-031</td>
-                                        <td class="text-left">Ø7.0 largo 80mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-031</td>
+                                        <td className="text-left">Ø7.0 largo 80mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-032</td>
-                                        <td class="text-left">Ø7.0 largo 85mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-032</td>
+                                        <td className="text-left">Ø7.0 largo 85mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-033</td>
-                                        <td class="text-left">Ø7.0 largo 90mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-033</td>
+                                        <td className="text-left">Ø7.0 largo 90mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-034</td>
-                                        <td class="text-left">Ø7.0 largo 95mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-034</td>
+                                        <td className="text-left">Ø7.0 largo 95mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-035</td>
-                                        <td class="text-left">Ø7.0 largo 100mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-035</td>
+                                        <td className="text-left">Ø7.0 largo 100mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-036</td>
-                                        <td class="text-left">Ø7.0 largo 105mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-036</td>
+                                        <td className="text-left">Ø7.0 largo 105mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-037</td>
-                                        <td class="text-left">Ø7.0 largo 110mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-037</td>
+                                        <td className="text-left">Ø7.0 largo 110mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left code">60-038</td>
-                                        <td class="text-left">Ø7.0 largo 115mm</td>
-                                        <td class="text-left">Acero</td>
+                                        <td className="text-left code">60-038</td>
+                                        <td className="text-left">Ø7.0 largo 115mm</td>
+                                        <td className="text-left">Acero</td>
                                     </tr>
 
                                 </tbody>

@@ -56,136 +56,136 @@ useEffect(() => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/tornillos-canulados/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Descripción</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Descripción</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">60-160</td>
-                                    <td class="text-left">Ø4.5 largo 12mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-160</td>
+                                    <td className="text-left">Ø4.5 largo 12mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-161</td>
-                                    <td class="text-left">Ø4.5 largo 14mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-161</td>
+                                    <td className="text-left">Ø4.5 largo 14mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-162</td>
-                                    <td class="text-left">Ø4.5 largo 16mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-162</td>
+                                    <td className="text-left">Ø4.5 largo 16mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-163</td>
-                                    <td class="text-left">Ø4.5 largo 18mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-163</td>
+                                    <td className="text-left">Ø4.5 largo 18mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-164</td>
-                                    <td class="text-left">Ø4.5 largo 20mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-164</td>
+                                    <td className="text-left">Ø4.5 largo 20mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-165</td>
-                                    <td class="text-left">Ø4.5 largo 22mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-165</td>
+                                    <td className="text-left">Ø4.5 largo 22mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-166</td>
-                                    <td class="text-left">Ø4.5 largo 24mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-166</td>
+                                    <td className="text-left">Ø4.5 largo 24mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-167</td>
-                                    <td class="text-left">Ø4.5 largo 26mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-167</td>
+                                    <td className="text-left">Ø4.5 largo 26mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-168</td>
-                                    <td class="text-left">Ø4.5 largo 28mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-168</td>
+                                    <td className="text-left">Ø4.5 largo 28mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-169</td>
-                                    <td class="text-left">Ø4.5 largo 30mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-169</td>
+                                    <td className="text-left">Ø4.5 largo 30mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-170</td>
-                                    <td class="text-left">Ø4.5 largo 32mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-170</td>
+                                    <td className="text-left">Ø4.5 largo 32mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-171</td>
-                                    <td class="text-left">Ø4.5 largo 34mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-171</td>
+                                    <td className="text-left">Ø4.5 largo 34mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-172</td>
-                                    <td class="text-left">Ø4.5 largo 36mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-172</td>
+                                    <td className="text-left">Ø4.5 largo 36mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-173</td>
-                                    <td class="text-left">Ø4.5 largo 38mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-173</td>
+                                    <td className="text-left">Ø4.5 largo 38mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-174</td>
-                                    <td class="text-left">Ø4.5 largo 40mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-174</td>
+                                    <td className="text-left">Ø4.5 largo 40mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-175</td>
-                                    <td class="text-left">Ø4.5 largo 42mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-175</td>
+                                    <td className="text-left">Ø4.5 largo 42mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-176</td>
-                                    <td class="text-left">Ø4.5 largo 44mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-176</td>
+                                    <td className="text-left">Ø4.5 largo 44mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-177</td>
-                                    <td class="text-left">Ø4.5 largo 46mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-177</td>
+                                    <td className="text-left">Ø4.5 largo 46mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-178</td>
-                                    <td class="text-left">Ø4.5 largo 48mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-178</td>
+                                    <td className="text-left">Ø4.5 largo 48mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-179</td>
-                                    <td class="text-left">Ø4.5 largo 50mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-179</td>
+                                    <td className="text-left">Ø4.5 largo 50mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-180</td>
-                                    <td class="text-left">Ø4.5 largo 55mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-180</td>
+                                    <td className="text-left">Ø4.5 largo 55mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-181</td>
-                                    <td class="text-left">Ø4.5 largo 60mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-181</td>
+                                    <td className="text-left">Ø4.5 largo 60mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-182</td>
-                                    <td class="text-left">Ø4.5 largo 65mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-182</td>
+                                    <td className="text-left">Ø4.5 largo 65mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">60-183</td>
-                                    <td class="text-left">Ø4.5 largo 70mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">60-183</td>
+                                    <td className="text-left">Ø4.5 largo 70mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
 
                             </tbody>

@@ -41,26 +41,26 @@ const PlacaEnL = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/mini-placas/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Cod</th>
-                                    <th class="text-left">Lado</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Cod</th>
+                                    <th className="text-left">Lado</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">43-052</td>
-                                    <td class="text-left">Izquierda</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">43-052</td>
+                                    <td className="text-left">Izquierda</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">43-053</td>
-                                    <td class="text-left">Derecha</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">43-053</td>
+                                    <td className="text-left">Derecha</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
 
                             </tbody>

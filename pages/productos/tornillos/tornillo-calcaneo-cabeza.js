@@ -39,41 +39,41 @@ const Concabeza = () => {
                     <ImageDiv className="image-div">
                         <ItemImg src={`/img/items/tornillos/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
                     </ImageDiv>
-                    <div class="info-div">
+                    <div className="info-div">
 
-                        <table class="tabla-chica" data-aos="fade-left">
+                        <table className="tabla-chica" data-aos="fade-left">
                             <thead>
                                 <tr>
-                                    <th class="text-left">Código</th>
-                                    <th class="text-left">Descripción</th>
-                                    <th class="text-left">Material</th>
+                                    <th className="text-left">Código</th>
+                                    <th className="text-left">Descripción</th>
+                                    <th className="text-left">Material</th>
                                 </tr>
                             </thead>
-                            <tbody class="table-hover">
+                            <tbody className="table-hover">
                                 <tr>
-                                    <td class="text-left code">62-001</td>
-                                    <td class="text-left">Ø7.0 largo 20mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">62-001</td>
+                                    <td className="text-left">Ø7.0 largo 20mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">62-002</td>
-                                    <td class="text-left">Ø7.0 largo 25mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">62-002</td>
+                                    <td className="text-left">Ø7.0 largo 25mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">62-003</td>
-                                    <td class="text-left">Ø7.0 largo 30mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">62-003</td>
+                                    <td className="text-left">Ø7.0 largo 30mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">62-004</td>
-                                    <td class="text-left">Ø7.0 largo 35mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">62-004</td>
+                                    <td className="text-left">Ø7.0 largo 35mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr>
-                                    <td class="text-left code">62-005</td>
-                                    <td class="text-left">Ø7.0 largo 40mm</td>
-                                    <td class="text-left">Titanio</td>
+                                    <td className="text-left code">62-005</td>
+                                    <td className="text-left">Ø7.0 largo 40mm</td>
+                                    <td className="text-left">Titanio</td>
                                 </tr>
                             </tbody>
                         </table>
