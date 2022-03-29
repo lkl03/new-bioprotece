@@ -29,8 +29,9 @@ $btnheight: 73px;
 .container {
     height: 100vh;
     margin-top: -108px;
-    background: $bgimage;
-    box-shadow: inset 0px -33px 25px rgba(64, 64, 64, 0.2);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
 
     @media only screen and (max-width: 1280px) {
         flex-direction: column;
@@ -132,8 +133,9 @@ $btnheight: 73px;
 }
 .secondContainer {
     height: 70vh;
-    background: $wt;
-    box-shadow: inset 0px -33px 25px rgba(64, 64, 64, 0.2);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
     @media only screen and (max-width: 1280px) {
         height: 100vh;
         flex-direction: column;
@@ -196,8 +198,9 @@ $btnheight: 73px;
 }
 .thirdContainer {
     height: 65vh;
-    background: $dark;
-    box-shadow: inset 0px -33px 25px rgba(64, 64, 64, 0.2);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
     @media only screen and (max-width: 1280px) {
         height: 100vh;
         flex-direction: column;
@@ -265,8 +268,9 @@ $btnheight: 73px;
 }
 .fourthContainer{
     height: 70vh;
-    background: $wt;
-    box-shadow: inset 0px -33px 25px rgba(64, 64, 64, 0.2);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
     @media only screen and (max-width: 1280px) {
         height: 100vh;
         flex-direction: column;
@@ -354,7 +358,8 @@ $btnheight: 73px;
 }
 .fifthContainer {
     height: 40vh;
-    background: $dark;
+    margin-right: auto;
+    margin-left: auto;
     @media only screen and (min-width: 380px) and (max-width: 1280px) {
         height: 50vh;
     }
@@ -503,7 +508,7 @@ $btnheight: 73px;
 .indicator {
     position: absolute;
     z-index: 1;
-    top: 47.5rem;
+    top: 90vh;
     left: 50vw;
     font-size: 4rem;
     color: $wt;
@@ -522,7 +527,6 @@ $btnheight: 73px;
         }
     }
     @media only screen and (max-width: 1280px) {
-        top: 52.5rem;
         display: none;
     }
     @media only screen and (max-width: 720px) {
@@ -535,8 +539,9 @@ $btnheight: 73px;
 
 .sixthContainer {
     height: 80vh;
-    background: $bgimage;
-    box-shadow: inset 0px -33px 25px rgba(64, 64, 64, 0.2);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
     @media only screen and (max-width: 1280px) {
         height: 125vh;
         flex-direction: column;

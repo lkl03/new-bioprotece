@@ -26,7 +26,7 @@ const FirstSection = () => {
     }, [])
 
     return (
-        <div>
+        <div style={{background: 'linear-gradient(60.7deg, #1348c4 -1.81%, #0188d3 73.84%)', boxShadow: 'inset 0px -33px 25px rgba(64, 64, 64, 0.2)'}}>
             <div className='container'>
                 <div className='container_left'>
                     <h1 className='container_left-title'>Fabricación y comercialización de implantes médicos</h1>
