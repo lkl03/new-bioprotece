@@ -92,6 +92,11 @@
                     display: block;
                 }
             }
+            &-img{
+                div{
+                    display: none;
+                }
+            }
             &-text{
                 display: none;
                 margin-top: 25%;

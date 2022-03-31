@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { db } from '../../../public/config'
 import { onSnapshot, collection, query, where, getDocs } from 'firebase/firestore';
 import NavProd from '../../../components/Navbar/NavProd'
+import Link from 'next/link'
 
 const index = () => {
   
@@ -13,16 +14,15 @@ const index = () => {
         });
     }, [])
 
-    useEffect(() => {
-      let x = document.querySelectorAll('button')
-      console.log(x.length)
-  }, [])
+  const [expand, setExpand] = useState(false)
 
   const [clickedAll, setClickedAll] = useState(false)
   const [clickedFirst, setClickedFirst] = useState(false)
   const [clickedSecond, setClickedSecond] = useState(false)
   const [clickedThird, setClickedThird] = useState(false)
 
+
+//functions to filter products
   function showAllItems () {
     if (clickedFirst == true || clickedSecond == true || clickedThird == true) {
       setClickedAll(true)
@@ -141,7 +141,16 @@ const index = () => {
       </div>
       <div className="gallery">
         {data.map(({ id, imageUrl, category, title, agregado }) => 
-          <div key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}}>
+          <div key={imageUrl} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={() => setExpand(true)}>
+            <div className='gallery_item-img'>
+              <div style={{display: expand ? 'block' : 'none'}}>
+                <Link href="">
+                  <a>
+                    <img src={imageUrl} alt={imageUrl} />
+                  </a>
+                </Link>
+              </div>
+            </div>
             <div className="gallery_item-text">
               <p>{title}</p>
               <p>{category}</p>
