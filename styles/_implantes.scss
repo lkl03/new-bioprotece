@@ -50,11 +50,12 @@
         }
     }
     .buttons{
-        display: grid;
-        grid-template-columns: repeat((4, 1fr));
-        grid-gap: 2em;
+        display: flex;
+        width: 100%;
+        gap: 2em;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        justify-content: center;
         &_button{
             padding: 15px;
             border-radius: 10px;

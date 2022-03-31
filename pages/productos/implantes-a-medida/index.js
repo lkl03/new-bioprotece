@@ -18,20 +18,66 @@ const index = () => {
       console.log(x.length)
   }, [])
 
+  const [clickedAll, setClickedAll] = useState(false)
   const [clickedFirst, setClickedFirst] = useState(false)
   const [clickedSecond, setClickedSecond] = useState(false)
   const [clickedThird, setClickedThird] = useState(false)
 
   function showAllItems () {
+    if (clickedFirst == true || clickedSecond == true || clickedThird == true) {
+      setClickedAll(true)
+    }
+    setClickedFirst(false)
+    setClickedSecond(false)
+    setClickedThird(false)
     const q = query(collection(db, 'images'))
         const f = onSnapshot(q, (querySnapshot) => {
             setData(querySnapshot.docs.map(doc => doc.data()))
         });
   }
 
-  function filterItem (value, param, content) {
-    (param)(content)
-    if(clickedFirst == false || clickedSecond == false || clickedThird == false) {
+  function firstFilter (value) {
+    setClickedFirst(!clickedFirst)
+    setClickedAll(false)
+    setClickedSecond(false)
+    setClickedThird(false)
+    if(clickedFirst == false) {
+      const q = query(collection(db, 'images'), where("category", "==", value))
+      const f = onSnapshot(q, (querySnapshot) => {
+          setData(querySnapshot.docs.map(doc => doc.data()))
+      });
+    }else{
+      const q = query(collection(db, 'images'))
+      const f = onSnapshot(q, (querySnapshot) => {
+          setData(querySnapshot.docs.map(doc => doc.data()))
+      });
+    }
+  }
+
+  function secondFilter (value) {
+    setClickedSecond(!clickedSecond)
+    setClickedAll(false)
+    setClickedThird(false)
+    setClickedFirst(false)
+    if(clickedSecond == false) {
+      const q = query(collection(db, 'images'), where("category", "==", value))
+      const f = onSnapshot(q, (querySnapshot) => {
+          setData(querySnapshot.docs.map(doc => doc.data()))
+      });
+    }else{
+      const q = query(collection(db, 'images'))
+      const f = onSnapshot(q, (querySnapshot) => {
+          setData(querySnapshot.docs.map(doc => doc.data()))
+      });
+    }
+  }
+
+  function thirdFilter (value) {
+    setClickedThird(!clickedThird)
+    setClickedAll(false)
+    setClickedSecond(false)
+    setClickedFirst(false)
+    if(clickedThird == false) {
       const q = query(collection(db, 'images'), where("category", "==", value))
       const f = onSnapshot(q, (querySnapshot) => {
           setData(querySnapshot.docs.map(doc => doc.data()))
@@ -80,16 +126,16 @@ const index = () => {
         <p>Algunos de nuestros implantes a medida impresos en titanio con estructura trabecular</p>
       </div>
       <div className="buttons">
-        <button className='buttons_button' onClick={()=> showAllItems()} style={{backgroundColor: clickedSecond ? 'red' : '#06C1A0'}}>
+        <button className='buttons_button' onClick={()=> showAllItems()} style={{backgroundColor: clickedAll ? '#1348C4' : '#06C1A0'}}>
         Todos
         </button>
-        <button className='buttons_button' onClick={()=> filterItem('Miembro Inferior', 'setClickedFirst', '!clickedFirst')} style={{backgroundColor: clickedFirst ? 'red' : '#06C1A0'}}>
+        <button className='buttons_button' onClick={()=> firstFilter('Miembro Inferior')} style={{backgroundColor: clickedFirst ? '#1348C4' : '#06C1A0'}}>
         Miembro Inferior
         </button>
-        <button className='buttons_button' onClick={()=> filterItem('Craneo', 'setClickedSecond', '!clickedSecond')} style={{backgroundColor: clickedSecond ? 'red' : '#06C1A0'}}>
+        <button className='buttons_button' onClick={()=> secondFilter('Craneo')} style={{backgroundColor: clickedSecond ? '#1348C4' : '#06C1A0'}}>
         Cráneo
         </button>
-        <button className='buttons_button' onClick={()=> filterItem('Columna', 'setClickedThird', '!clickedThird')} style={{backgroundColor: clickedThird ? 'red' : '#06C1A0'}}>
+        <button className='buttons_button' onClick={()=> thirdFilter('Columna')} style={{backgroundColor: clickedThird ? '#1348C4' : '#06C1A0'}}>
         Columna
         </button>
       </div>
