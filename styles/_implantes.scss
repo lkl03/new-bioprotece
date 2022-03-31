@@ -1,5 +1,5 @@
 .impContainer {
-    max-width: 75vw;
+    max-width: 1440px;
     width: 100%;
     margin: auto;
     &-titlendesc{
@@ -12,10 +12,11 @@
     }
     &-firstRow{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         &--text{
             text-align: start;
+            width: 30%;
             h4{
                 font-size: 2rem;
                 color: #06C1A0;
@@ -31,10 +32,11 @@
     &-secondRow{
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         &--text{
             text-align: end;
+            width: 30%;
             h4{
                 font-size: 2rem;
                 color: #06C1A0;
@@ -44,6 +46,26 @@
         &--img{
             img{
                 height: 300px;
+            }
+        }
+    }
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat((4, 1fr));
+        grid-gap: 2em;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        &_button{
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            &:hover{
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             }
         }
     }
@@ -60,9 +82,24 @@
             height: 300px;
             flex-basis: 15%;
             border-radius: 10px;
-            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             background-position: center;
             background-size: cover;
+            transition: all 0.2s ease-in-out;
+            &:hover{
+                filter: grayscale(1);
+                .gallery_item-text{
+                    display: block;
+                }
+            }
+            &-text{
+                display: none;
+                margin-top: 25%;
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #ffffff;
+                text-align: center;
+                transition: all 0.2s ease-in-out;
+            }
         }
     }
 }
