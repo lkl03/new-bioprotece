@@ -50,6 +50,9 @@
         }
     }
     .buttons{
+        &.expanded {
+            pointer-events: none;
+        }
         display: flex;
         width: 100%;
         gap: 2em;
@@ -76,6 +79,9 @@
         grid-gap: 2em;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        &.expanded {
+            pointer-events: none;
+        }
         &_item{
             display: block;
             margin: auto;
@@ -98,7 +104,7 @@
                             left: 0;
                             right: 0;
                             bottom: 0;
-                            background-color: rgba(0,0,0,0.5);
+                            background-color: rgba(0,0,0,0.75);
                             z-index: 2;
                             cursor: pointer;
                             img{

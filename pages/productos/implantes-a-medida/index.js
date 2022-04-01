@@ -93,7 +93,16 @@ const index = () => {
   function expand (value) {
     let item = value.target
     item.classList.add('expanded')
-    console.log(item)
+    let itemContainer= item.parentElement
+    itemContainer.classList.add('expanded')
+    let buttons = document.querySelector('.buttons')
+    buttons.classList.add('expanded')
+    setTimeout(() => {
+      item.classList.remove('expanded')
+      itemContainer.classList.remove('expanded')
+      buttons.classList.remove('expanded')
+
+    }, 3000);
   }
 
   
@@ -150,13 +159,13 @@ const index = () => {
           <div id={id} key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={(id) => expand(id)}>
             <div className='gallery_item-img'>
               <div>
+                <button onClick={(id) => minimize(id)}>X</button>
                 <img src={imageUrl} alt={imageUrl} />
               </div>
             </div>
             <div className="gallery_item-text">
               <p>{title}</p>
               <p>{category}</p>
-              <img src={imageUrl} alt={imageUrl} />
             </div>
           </div>
         )}
