@@ -140,8 +140,8 @@ const index = () => {
         </button>
       </div>
       <div className="gallery">
-        {data.map(({ id, imageUrl, category, title, agregado }) => 
-          <div key={imageUrl} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={() => setExpand(true)}>
+        {data.map(({ id, e, imageUrl, category, title, agregado }) => 
+          <div key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={() => console.log(id)}>
             <div className='gallery_item-img'>
               <div style={{display: expand ? 'block' : 'none'}}>
                 <Link href="">
@@ -154,6 +154,7 @@ const index = () => {
             <div className="gallery_item-text">
               <p>{title}</p>
               <p>{category}</p>
+              <img src={imageUrl} alt={imageUrl} />
             </div>
           </div>
         )}
