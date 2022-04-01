@@ -14,7 +14,7 @@ const index = () => {
         });
     }, [])
 
-  const [expand, setExpand] = useState(false)
+  //const [expand, setExpand] = useState(false)
 
   const [clickedAll, setClickedAll] = useState(false)
   const [clickedFirst, setClickedFirst] = useState(false)
@@ -90,6 +90,10 @@ const index = () => {
     }
   }
 
+  function expand (value) {
+    console.log(value)
+  }
+
   
   return (
     <>
@@ -141,9 +145,9 @@ const index = () => {
       </div>
       <div className="gallery">
         {data.map(({ id, e, imageUrl, category, title, agregado }) => 
-          <div key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={() => console.log(id)}>
+          <div id={id} key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={() => expand(id)}>
             <div className='gallery_item-img'>
-              <div style={{display: expand ? 'block' : 'none'}}>
+              <div>
                 <Link href="">
                   <a>
                     <img src={imageUrl} alt={imageUrl} />
