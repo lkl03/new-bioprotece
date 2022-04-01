@@ -4,7 +4,7 @@ import { onSnapshot, collection, query, where, getDocs } from 'firebase/firestor
 import NavProd from '../../../components/Navbar/NavProd'
 import Link from 'next/link'
 
-const index = () => {
+const Index = () => {
   
   const [data, setData] = useState([])
     useEffect(() => {
@@ -120,7 +120,7 @@ const index = () => {
           <p>Fabricamos implantes médicos de estructura compleja combinando las tecnologías CAD (diseño asistido por computadora) y MPBF (fusión de polvo metálico en una cama de impresión). De esta manera, los implantes están diseñados a medida de cada paciente.</p>
         </div>
         <div className='impContainer-firstRow--img'>
-          <img src="/img/productos/implantes-a-medida/additive1.svg" alt="" />
+          <img src="/img/productos/implantes-a-medida/additive1.png" alt="" />
         </div>
       </div>
       <div className='impContainer-secondRow'>
@@ -129,7 +129,7 @@ const index = () => {
           <p>Trabajamos con nuestra propia estructura trabecular biocompatible, que favorece a la osteointegración del implante con los huesos del cuerpo humano, además de hacer que los implantes sean más resistentes y livianos.</p>
         </div>
         <div className='impContainer-secondRow--img'>
-          <img src="/img/productos/implantes-a-medida/additive2.svg" alt="" />
+          <img src="/img/productos/implantes-a-medida/additive2.png" alt="" />
         </div>
       </div>
       <div className='impContainer-titlendesc'>
@@ -147,7 +147,7 @@ const index = () => {
         <button className='buttons_button' onClick={()=> firstFilter('Miembro Inferior')} style={{backgroundColor: clickedFirst ? '#1348C4' : '#06C1A0'}}>
         Miembro Inferior
         </button>
-        <button className='buttons_button' onClick={()=> secondFilter('Craneo')} style={{backgroundColor: clickedSecond ? '#1348C4' : '#06C1A0'}}>
+        <button className='buttons_button' onClick={()=> secondFilter('Cráneo')} style={{backgroundColor: clickedSecond ? '#1348C4' : '#06C1A0'}}>
         Cráneo
         </button>
         <button className='buttons_button' onClick={()=> thirdFilter('Columna')} style={{backgroundColor: clickedThird ? '#1348C4' : '#06C1A0'}}>
@@ -175,7 +175,7 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
 
 
 

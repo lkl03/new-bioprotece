@@ -205,6 +205,14 @@ const Nav = () => {
                                         <a>tornillos canulados</a>
                                     </Link>
                                 </li>
+                                <li className="dropLi" onClick={() => cerrar()}>
+                                    <Link href='https://drive.google.com/file/d/1kDUxElboZO1AaSa8pRP3PWAp15h6W_fR/view'  >
+                                        <a className="circle" style={{ backgroundImage: `url(../../../img/img1.webp)` }}></a>
+                                    </Link>
+                                    <Link href='https://drive.google.com/file/d/1kDUxElboZO1AaSa8pRP3PWAp15h6W_fR/view'  >
+                                        <a>catálogo completo</a>
+                                    </Link>
+                                </li>
                             </ul>
                         </div>}
                     </ul>
