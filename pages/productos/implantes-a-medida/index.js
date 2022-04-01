@@ -91,7 +91,9 @@ const index = () => {
   }
 
   function expand (value) {
-    console.log(value)
+    let item = value.target
+    item.classList.add('expanded')
+    console.log(item)
   }
 
   
@@ -145,14 +147,10 @@ const index = () => {
       </div>
       <div className="gallery">
         {data.map(({ id, e, imageUrl, category, title, agregado }) => 
-          <div id={id} key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={() => expand(id)}>
+          <div id={id} key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={(id) => expand(id)}>
             <div className='gallery_item-img'>
               <div>
-                <Link href="">
-                  <a>
-                    <img src={imageUrl} alt={imageUrl} />
-                  </a>
-                </Link>
+                <img src={imageUrl} alt={imageUrl} />
               </div>
             </div>
             <div className="gallery_item-text">
