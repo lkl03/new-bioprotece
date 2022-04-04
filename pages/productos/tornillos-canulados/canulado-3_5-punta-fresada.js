@@ -53,9 +53,16 @@ useEffect(() => {
             <ItemS>
                 <TitleItem className="title-item">{titulo}</TitleItem>
                 <ContentItem>
-                    <ImageDiv className="image-div">
-                        <ItemImg src={`/img/items/tornillos-canulados/${img}.webp`} alt={`${titulo} Bioprotece`} className="item-img" data-aos="fade-right" />
-                    </ImageDiv>
+                <div style={{maxWidth: '1613px', maxHeight: '874px'}}>
+                    <div style={{left: '0px', width: '100%', height: '0px', position: 'relative', paddingBottom: '54.1847%', overflow: 'hidden'}}>
+                        <iframe src="/img/productos/tornillos-canulados/Canulado-3.5/Canulado-3.5.html"
+                                    allowFullScreen
+                                    style={{position: 'absolute', top: '0px', left: '0px', height: '100%', width: '1px', minWidth: '100%', width: '100%'}}
+                                    frameBorder="0"
+                                    scrolling="no">
+                        </iframe>
+                    </div>
+                </div>
                     <div className="info-div multitables">
 
                         <details open>
