@@ -1,20 +1,22 @@
 import React, {useState, useEffect} from 'react'
 import { db } from '../../../public/config'
-import { onSnapshot, collection, query, where, getDocs } from 'firebase/firestore';
+import { onSnapshot, collection, query, where, orderBy } from 'firebase/firestore';
 import NavProd from '../../../components/Navbar/NavProd'
-import Link from 'next/link'
+import Loader from '../../../components/Generales/Loader';
 
 const Index = () => {
   
   const [data, setData] = useState([])
     useEffect(() => {
-        const q = query(collection(db, 'images'))
+        const q = query(collection(db, 'images'), orderBy('agregado', 'desc'))
         const f = onSnapshot(q, (querySnapshot) => {
             setData(querySnapshot.docs.map(doc => doc.data()))
+            setIsLoading(false)
         });
     }, [])
 
-  //const [expand, setExpand] = useState(false)
+  const [isLoading, setIsLoading] = useState(true);
+
 
   const [clickedAll, setClickedAll] = useState(false)
   const [clickedFirst, setClickedFirst] = useState(false)
@@ -42,7 +44,7 @@ const Index = () => {
     setClickedSecond(false)
     setClickedThird(false)
     if(clickedFirst == false) {
-      const q = query(collection(db, 'images'), where("category", "==", value))
+      const q = query(collection(db, 'images'), where("category", "==", value), orderBy('agregado', 'desc'))
       const f = onSnapshot(q, (querySnapshot) => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
@@ -60,7 +62,7 @@ const Index = () => {
     setClickedThird(false)
     setClickedFirst(false)
     if(clickedSecond == false) {
-      const q = query(collection(db, 'images'), where("category", "==", value))
+      const q = query(collection(db, 'images'), where("category", "==", value), orderBy('agregado', 'desc'))
       const f = onSnapshot(q, (querySnapshot) => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
@@ -78,7 +80,7 @@ const Index = () => {
     setClickedSecond(false)
     setClickedFirst(false)
     if(clickedThird == false) {
-      const q = query(collection(db, 'images'), where("category", "==", value))
+      const q = query(collection(db, 'images'), where("category", "==", value), orderBy('agregado', 'desc'))
       const f = onSnapshot(q, (querySnapshot) => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
@@ -101,7 +103,6 @@ const Index = () => {
       item.classList.remove('expanded')
       itemContainer.classList.remove('expanded')
       buttons.classList.remove('expanded')
-
     }, 3000);
   }
 
@@ -140,7 +141,7 @@ const Index = () => {
         <h3>Nuestros implantes</h3>
         <p>Algunos de nuestros implantes a medida impresos en titanio con estructura trabecular</p>
       </div>
-      <div className="buttons">
+      <div className="buttons" style={{display: isLoading ? 'none' : 'flex'}}>
         <button className='buttons_button' onClick={()=> showAllItems()} style={{backgroundColor: clickedAll ? '#1348C4' : '#06C1A0'}}>
         Todos
         </button>
@@ -154,8 +155,8 @@ const Index = () => {
         Columna
         </button>
       </div>
-      <div className="gallery">
-        {data.map(({ id, e, imageUrl, category, title, agregado }) => 
+      {isLoading ? <Loader /> : <div className="gallery">
+        {data.map(({ id, imageUrl, category, title, agregado }) => 
           <div id={id} key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={(id) => expand(id)}>
             <div className='gallery_item-img'>
               <div>
@@ -169,7 +170,7 @@ const Index = () => {
             </div>
           </div>
         )}
-      </div>
+      </div>}
     </div>
     </>
   )
