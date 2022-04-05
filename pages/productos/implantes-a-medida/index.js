@@ -91,21 +91,6 @@ const Index = () => {
       });
     }
   }
-
-  function expand (value) {
-    let item = value.target
-    item.classList.add('expanded')
-    let itemContainer= item.parentElement
-    itemContainer.classList.add('expanded')
-    let buttons = document.querySelector('.buttons')
-    buttons.classList.add('expanded')
-    setTimeout(() => {
-      item.classList.remove('expanded')
-      itemContainer.classList.remove('expanded')
-      buttons.classList.remove('expanded')
-    }, 3000);
-  }
-
   
   return (
     <>
@@ -130,7 +115,7 @@ const Index = () => {
           <p>Trabajamos con nuestra propia estructura trabecular biocompatible, que favorece a la osteointegración del implante con los huesos del cuerpo humano, además de hacer que los implantes sean más resistentes y livianos.</p>
         </div>
         <div className='impContainer-secondRow--img'>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }} id='render'>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '30rem', height: '15rem' }} id='render'>
             <div style={{ width: '100%', height: '100%' }}>
               <iframe style={{ width: '100%', height: '100%' }} src="/img/productos/implantes-a-medida/Cubos/Cubos.html"
                 allowFullScreen
@@ -176,16 +161,12 @@ const Index = () => {
       </div>
       {isLoading ? <Loader /> : <div className="gallery">
         {data.map(({ id, imageUrl, category, title, agregado }) => 
-          <div id={id} key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}} onClick={(id) => expand(id)}>
-            <div className='gallery_item-img'>
-              <div>
-                <button onClick={(id) => minimize(id)}>X</button>
-                <img src={imageUrl} alt={imageUrl} />
-              </div>
-            </div>
+          <div id={id} key={id} className="gallery_item" style={{backgroundImage: `url(${imageUrl})`}}>
             <div className="gallery_item-text">
               <p>{title}</p>
               <p>{category}</p>
+              <div className='gallery_item-bg'>
+              </div>
             </div>
           </div>
         )}

@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import {
-    ItemS,
     TitleItem,
-    ContentItem,
-    ItemImg,
-    ImageDiv,
 } from '../../../styles/StyledItems'
 import ScrollArrow from '../../../components/Generales/ScrollArrow'
 import Pdf from '../../../components/Generales/Pdf'

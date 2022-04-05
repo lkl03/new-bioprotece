@@ -75,9 +75,6 @@
         }
     }
     .buttons{
-        &.expanded {
-            pointer-events: none;
-        }
         display: flex;
         width: 100%;
         gap: 2em;
@@ -114,9 +111,6 @@
         grid-gap: 1em;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        &.expanded {
-            pointer-events: none;
-        }
         &_item{
             display: block;
             margin: auto;
@@ -130,50 +124,19 @@
             background-position: center;
             background-size: cover;
             transition: all 0.2s ease-in-out;
-            cursor: pointer;
-            &.expanded {
-                .gallery_item-img{
-                    div{
-                            display: block;
-                            position: fixed;
-                            width: 100%;
-                            height: 100%;
-                            top: 0;
-                            left: 0;
-                            right: 0;
-                            bottom: 0;
-                            background-color: rgba(0,0,0,0.75);
-                            z-index: 2;
-                            cursor: pointer;
-                            img{
-                                position: fixed;
-                                width: auto;
-                                height: 100%;
-                                margin: auto;
-                                top: 10vh;
-                                left: 0;
-                                right: 0;
-                                bottom: 0;
-                                z-index: 2;
-                                cursor: pointer;
-                            }
-                        }
-                    }
-                }
             &:hover{
-                filter: brightness(0.8);
                 .gallery_item-text{
                     display: block;
-                }
-            }
-            &-img{
-                div{
-                    display: none;
+                    background-color: rgba(0, 0, 0, 0.4);
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    border-radius: 10px;
+                    padding: 6.5em 0;
                 }
             }
             &-text{
                 display: none;
-                margin-top: 25%;
                 font-size: 1.2rem;
                 font-weight: bold;
                 color: #ffffff;
@@ -184,6 +147,11 @@
                     &:nth-of-type(2){
                         color: rgb(6, 193, 160)
                     }
+                }
+                .gallery_item-bg{
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 1);
                 }
             }
         }
