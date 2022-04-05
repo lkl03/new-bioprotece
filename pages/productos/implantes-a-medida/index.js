@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { db } from '../../../public/config'
 import { onSnapshot, collection, query, where, orderBy } from 'firebase/firestore';
-import NavProd from '../../../components/Navbar/NavProd'
+import Nav from '../../../components/Navbar/Nav'
 import Loader from '../../../components/Generales/Loader';
 
 const Index = () => {
@@ -109,7 +109,7 @@ const Index = () => {
   
   return (
     <>
-    <NavProd />
+    <Nav />
     <div className='impContainer'>
       <div className='impContainer-titlendesc'>
         <h3>Implantes a medida</h3>
@@ -130,7 +130,15 @@ const Index = () => {
           <p>Trabajamos con nuestra propia estructura trabecular biocompatible, que favorece a la osteointegración del implante con los huesos del cuerpo humano, además de hacer que los implantes sean más resistentes y livianos.</p>
         </div>
         <div className='impContainer-secondRow--img'>
-          <img src="/img/productos/implantes-a-medida/additive2.png" alt="" />
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }} id='render'>
+            <div style={{ width: '100%', height: '100%' }}>
+              <iframe style={{ width: '100%', height: '100%' }} src="/img/productos/implantes-a-medida/Cubos/Cubos.html"
+                allowFullScreen
+                frameBorder="0"
+                scrolling="no">
+              </iframe>
+            </div>
+          </div>
         </div>
       </div>
       <div className='impContainer-titlendesc'>
