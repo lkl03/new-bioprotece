@@ -8,7 +8,7 @@ const Cont = (props) => {
             <Link href={props.path}>
                 <ContContent>
                     <Icon />
-                    <p>{props.text}</p>
+                    <p style={{fontSize: '1rem'}}>{props.text}</p>
                 </ContContent>
             </Link>
         </ContContainer>
