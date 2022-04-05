@@ -6,7 +6,7 @@ const Pdf = (props) => {
         <PdfContainer href={props.path} target='_blank' >
             <PdfContent>
                 <Icon />
-                <p style={{fontSize: '0.9rem'}}>{props.text}</p>
+                <p>{props.text}</p>
             </PdfContent>
         </PdfContainer>
     )
