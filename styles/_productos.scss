@@ -18,7 +18,7 @@
     margin-top: 5rem;
     @media only screen and (max-width:719px) { 
         width: 60%;
-        margin-top: 5rem;
+        margin-top: 0;
     }
 
     @media only screen and (min-width:720px) and (max-width:1269px) {
@@ -35,10 +35,21 @@
         @media only screen and (max-width:719px) { 
             flex-direction: column;
             width: auto;
+            justify-content: inherit;
         }
         @media only screen and (min-width:720px) and (max-width:1269px) {
             flex-direction: column;
             width: auto;
         }
+    }
+
+    &-last{
+        width: 100%;
+    }
+}
+
+#render{
+    @media only screen and (min-width:720px) and (max-width:1269px) {
+        height: 20rem;
     }
 }

@@ -54,7 +54,7 @@ useEffect(() => {
                 <TitleItem className="title-item">{titulo}</TitleItem>
                 <div className='contentItem'>
                     <div className="contentItem-flex">
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%'}}>
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%'}} id='render'>
                             <div style={{width: '100%', height: '100%'}}>
                                 <iframe style={{width: '100%', height: '100%'}} src="/img/productos/tornillos-canulados/Canulado-3.5/Canulado-3.5.html"
                                     allowFullScreen
