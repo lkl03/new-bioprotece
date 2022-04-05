@@ -11,7 +11,6 @@ import Pdf from '../../../components/Generales/Pdf'
 import NavProd from '../../../components/Navbar/NavProd'
 import Redirecter from '../../../components/Redirecter'
 
-
 const AceroBloqueada = () => {
 
     useEffect(() => {
