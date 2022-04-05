@@ -152,8 +152,8 @@ const Index = () => {
         <button className='buttons_button' onClick={()=> firstFilter('Miembro Inferior')} style={{backgroundColor: clickedFirst ? '#1348C4' : '#06C1A0'}}>
         Miembro Inferior
         </button>
-        <button className='buttons_button' onClick={()=> secondFilter('Cráneo')} style={{backgroundColor: clickedSecond ? '#1348C4' : '#06C1A0'}}>
-        Cráneo
+        <button className='buttons_button' onClick={()=> secondFilter('Máxilo')} style={{backgroundColor: clickedSecond ? '#1348C4' : '#06C1A0'}}>
+        Máxilo
         </button>
         <button className='buttons_button' onClick={()=> thirdFilter('Columna')} style={{backgroundColor: clickedThird ? '#1348C4' : '#06C1A0'}}>
         Columna
