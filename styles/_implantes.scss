@@ -12,7 +12,7 @@
         p{
             width: 50%;
             margin: auto;
-            @media only screen and (max-width: 720px) {
+            @media only screen and (max-width: 820px) {
                 width: 90%;
             }
         }
@@ -21,7 +21,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @media only screen and (max-width: 720px) {
+        @media only screen and (max-width: 820px) {
             margin-top: 2rem;
             flex-direction: column;
             justify-content: flex-start;
@@ -30,7 +30,7 @@
         &--text{
             text-align: start;
             width: 30%;
-            @media only screen and (max-width: 720px) {
+            @media only screen and (max-width: 820px) {
                 width: 98%;
             }
             h4{
@@ -50,7 +50,7 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-        @media only screen and (max-width: 720px) {
+        @media only screen and (max-width: 820px) {
             flex-direction: column;
             justify-content: flex-end;
             align-items: flex-start;
@@ -59,7 +59,7 @@
         &--text{
             text-align: end;
             width: 30%;
-            @media only screen and (max-width: 720px) {
+            @media only screen and (max-width: 820px) {
                 width: 98%;
             }
             h4{
@@ -80,10 +80,13 @@
         gap: 2em;
         @media only screen and (max-width: 720px) {
             flex-wrap: wrap;
+            width: 90%;
         }
         margin-top: 2rem;
         margin-bottom: 2rem;
         justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
         &_button{
             @media only screen and (max-width: 720px) {
                 width: 42.5%;
@@ -104,7 +107,7 @@
     .gallery{
         display: grid;
         grid-template-columns: repeat((3, 1fr));
-        @media only screen and (max-width: 720px) {
+        @media only screen and (max-width: 820px) {
             grid-template-columns: repeat((1, 1fr));
             margin-bottom: 1rem;
         }
@@ -112,11 +115,15 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
         &_item{
-            display: block;
+            display: flex;
             margin: auto;
             width: 475px;
             @media only screen and (max-width: 720px) {
-                width: 92.5%;
+                width: 100%;
+            }
+            img{
+                width: 80%;
+                margin: auto;
             }
             height: 300px;
             flex-basis: 15%;
@@ -159,4 +166,20 @@
             }
         }
     }
+}
+
+@media only screen and (min-width: 1080px){
+    #render{
+        &:hover{
+            #helpText {
+                visibility: visible;
+            }
+        }
+    }
+}
+
+#helpText{
+    visibility: hidden;
+    font-size: 0.8rem;
+    color: #06C1A0;
 }

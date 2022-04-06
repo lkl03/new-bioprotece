@@ -123,21 +123,22 @@ const Index = () => {
                 scrolling="no">
               </iframe>
             </div>
+            <p id="helpText">Proba haciendo click!</p>
           </div>
         </div>
       </div>
       <div className='impContainer-titlendesc'>
         <h3>Craneoplastía</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nam quis dignissimos reiciendis nemo totam laboriosam commodi pariatur, recusandae sint illo provident, ipsa similique dolorem, voluptatibus in eligendi esse facere!</p>
+        <p>Consiste en levantar las imágenes obtenidas por técnicas de diagnóstico (TAC o MRI) a través de un software, para poder incluir implantes médicos en el modelo del paciente. A partir de ello, desarrollamos el implante en plástico y/o resina.</p>
         <div className="gallery">
           <div className="gallery_item">
-            <img src="/img/productos/implantes-a-medida/craneo1.svg" alt="" />
+            <img src="/img/productos/implantes-a-medida/craneo1.webp" alt="" />
           </div>
           <div className="gallery_item">
-            <img src="/img/productos/implantes-a-medida/craneo2.svg" alt="" />
+            <img src="/img/productos/implantes-a-medida/craneo2.webp" alt="" />
           </div>
           <div className="gallery_item">
-            <img src="/img/productos/implantes-a-medida/craneo3.svg" alt="" />
+            <img src="/img/productos/implantes-a-medida/craneo3.webp" alt="" />
           </div>
         </div>
       </div>
