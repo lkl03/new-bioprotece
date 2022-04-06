@@ -114,8 +114,8 @@ const Index = () => {
           <h4>Estructura trabecular</h4>
           <p>Trabajamos con nuestra propia estructura trabecular biocompatible, que favorece a la osteointegración del implante con los huesos del cuerpo humano, además de hacer que los implantes sean más resistentes y livianos.</p>
         </div>
-        <div className='impContainer-secondRow--img'>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '30rem', height: '15rem' }} id='render'>
+        <div className='impContainer-secondRow--img' id="helpTextShow">
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '20rem', height: '10rem' }} id='render'>
             <div style={{ width: '100%', height: '100%' }}>
               <iframe style={{ width: '100%', height: '100%' }} src="/img/productos/implantes-a-medida/Cubos/Cubos.html"
                 allowFullScreen
@@ -123,8 +123,8 @@ const Index = () => {
                 scrolling="no">
               </iframe>
             </div>
-            <p id="helpText">Proba haciendo click!</p>
           </div>
+          <p id="helpText">Desliza la imagen!</p>
         </div>
       </div>
       <div className='impContainer-titlendesc'>

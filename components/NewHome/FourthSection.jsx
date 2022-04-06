@@ -11,13 +11,13 @@ const FourthSection = () => {
                     </div>
                 </div>
                 <div className='fourthContainer_right'>
-                    <h3 className='fourthContainer_right-sectionTitle'>Fabricación aditiva: <br /> impresión 3D en titanio</h3>
+                    <h3 className='fourthContainer_right-sectionTitle'>Implantes a medida: <br /> impresión 3D en titanio</h3>
                     <p className='fourthContainer_right-sectionText'>
                         Además del forjado, también fabricamos implantes médicos de estructura compleja
                         combinando las tecnologías <span>CAD</span> (diseño asistido por computadora)
                         y <span>MPBF</span> (fusión de polvo metálico en una cama de impresión).
                     </p>
-                    <Link href="/equipamiento/impresion3d">
+                    <Link href="/productos/implantes-a-medida">
                         <button type='button' className='fourthContainer_right-sectionButton'>
                             Más Info
                         </button>
