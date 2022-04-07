@@ -86,13 +86,13 @@ const SixthSection = () => {
                 <div className='sixthContainer_right'>
                     <div className='sixthContainer_right-form'>
                         <form id='contact-form' onSubmit={formSent}>
-                            <label htmlFor='from_name'>Nombre</label>
+                            <label htmlFor='nombre'>Nombre</label>
                             <input type="text" id='nombre' name='from_name' value={toSend.from_name} onChange={handleChange} required />
-                            <label htmlFor='from_email'>Email</label>
+                            <label htmlFor='email'>Email</label>
                             <input type="email" id='email' name='from_email' value={toSend.from_email} onChange={handleChange} required />
-                            <label htmlFor='from_tel'>Teléfono</label>
+                            <label htmlFor='telefono'>Teléfono</label>
                             <input type="text" id='telefono' name='from_tel' value={toSend.from_tel} onChange={handleChange} required />
-                            <label htmlFor='message'>Mensaje</label>
+                            <label htmlFor='mensaje'>Mensaje</label>
                             <textarea id='mensaje' name='message' value={toSend.message} onChange={handleChange} required />
                             <button>Enviar</button>
                         </form>

@@ -321,12 +321,24 @@
             background-color: #ececec;
             padding: 2.5rem;
             position: fixed;
-            top: 20vh;
+            top: 12.5vh;
             left: 25%;
             right: 0;
             border: none;
             border-radius: 10px;
-            height: 75vh;
+            height: 85vh;
+            @media only screen and (max-width: 1280px) {
+                width: 75%;
+                background-color: #ececec;
+                padding: 0.5rem;
+                position: fixed;
+                top: 12.5vh;
+                left: 12.5%;
+                right: 0;
+                border: none;
+                border-radius: 10px;
+                height: auto;
+            }
         }
         form{
             display: flex;
@@ -339,10 +351,16 @@
                 cursor: pointer;
                 transition: all 0.2s ease-in-out;
                 &:hover {
-                    color: red;
+                    color: #0188d3;
                 }
                 &:focus {
-                    color: red;
+                    color: #0188d3;
+                }
+                @media only screen and (max-width: 720px) {
+                    font-size: 1rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    margin-top: 0.75rem;
                 }
             }
             input{
@@ -355,12 +373,17 @@
                 transition: all 0.2s ease-in-out;
                 &:hover {
                     border: 2px solid #acacac;
-                    color: black;
+                    color: #1e1e1e;
                 }
                 &:focus{
                     outline: none;
-                    border: 2px solid red;
-                    color: red;
+                    border: 2px solid #0188d3;
+                    color: #0188d3;
+                }
+                @media only screen and (max-width: 720px) {
+                    padding: 0.25rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
                 }
             }
             textarea{
@@ -375,19 +398,25 @@
                 transition: all 0.2s ease-in-out;
                 &:hover {
                     border: 2px solid #acacac;
-                    color: black;
+                    color: #1e1e1e;
                 }
                 &:focus {
                     outline: none;
-                    border: 2px solid red;
-                    color: red;
+                    border: 2px solid #0188d3;
+                    color: #0188d3;
+                }
+                @media only screen and (max-width: 720px) {
+                    padding: 0.25rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    margin-bottom: 0.75rem;
                 }
             }
             button {
                 font-family: Roboto;
                 font-weight: 500;
-                width: 50%;
-                background-color: red;
+                width: 25%;
+                background-color: #1348c4;
                 border-radius: 10px;
                 border: none;
                 color: white;
@@ -399,7 +428,12 @@
                 -webkit-transition: all 0.2s ease-in-out;
                 transition: all 0.2s ease-in-out;
                 &:hover {
-                    background-color: red;
+                    background-color: #0188d3;
+                }
+                @media only screen and (max-width: 720px) {
+                    width: 90%;
+                    font-size: 1rem;
+                    margin: auto;
                 }
             }
         }
