@@ -24,7 +24,7 @@ const PlacaEnL = () => {
         })
     }, [])
 
-    const titulo = 'Tornillo cortical titanio';
+    const titulo = 'Tornillo cortical titanio 2.7';
     const img = 'tornillo-cortical';
 
 

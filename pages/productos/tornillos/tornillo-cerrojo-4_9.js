@@ -25,8 +25,8 @@ const Herbert = () => {
         })
     }, [])
 
-    const titulo = 'Tornillo Herbert Ø4';
-    const img = 'herbert';
+    const titulo = 'Tornillo Cerrojo Ø4.9';
+    const img = 'cerrojo';
 
 
     return (

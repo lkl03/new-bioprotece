@@ -3,6 +3,8 @@ import { db } from '../../../public/config'
 import { onSnapshot, collection, query, where, orderBy } from 'firebase/firestore';
 import Nav from '../../../components/Navbar/Nav'
 import Loader from '../../../components/Generales/Loader';
+import { FaEnvelope, FaTimes } from 'react-icons/fa'
+
 
 const Index = () => {
   
@@ -16,6 +18,7 @@ const Index = () => {
     }, [])
 
   const [isLoading, setIsLoading] = useState(true);
+  const [formShown, setFormShown] = useState(false)
 
 
   const [clickedAll, setClickedAll] = useState(false)
@@ -32,7 +35,7 @@ const Index = () => {
     setClickedFirst(false)
     setClickedSecond(false)
     setClickedThird(false)
-    const q = query(collection(db, 'images'))
+    const q = query(collection(db, 'images'), orderBy('agregado', 'desc'))
         const f = onSnapshot(q, (querySnapshot) => {
             setData(querySnapshot.docs.map(doc => doc.data()))
         });
@@ -49,7 +52,7 @@ const Index = () => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
     }else{
-      const q = query(collection(db, 'images'))
+      const q = query(collection(db, 'images'), orderBy('agregado', 'desc'))
       const f = onSnapshot(q, (querySnapshot) => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
@@ -67,7 +70,7 @@ const Index = () => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
     }else{
-      const q = query(collection(db, 'images'))
+      const q = query(collection(db, 'images'), orderBy('agregado', 'desc'))
       const f = onSnapshot(q, (querySnapshot) => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
@@ -85,7 +88,7 @@ const Index = () => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
     }else{
-      const q = query(collection(db, 'images'))
+      const q = query(collection(db, 'images'), orderBy('agregado', 'desc'))
       const f = onSnapshot(q, (querySnapshot) => {
           setData(querySnapshot.docs.map(doc => doc.data()))
       });
@@ -98,11 +101,11 @@ const Index = () => {
     <div className='impContainer'>
       <div className='impContainer-titlendesc'>
         <h3>Implantes a medida</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Ex nam quis dignissimos reiciendis nemo totam laboriosam commodi pariatur, recusandae sint illo provident, ipsa similique dolorem, voluptatibus in eligendi esse facere!</p>
+        <p>Además del proceso de forjado, también fabricamos implantes a medida de estructura compleja combinando las tecnologías <span>CAD</span> (diseño asistido por computadora), <span>MPBF</span>  (fusión de polvo metálico en una cama de impresión) y <span>FDM</span> (modelado por deposición fundida)</p>
       </div>
       <div className='impContainer-firstRow'>
         <div className='impContainer-firstRow--text'>
-          <h4>Impresión 3D</h4>
+          <h4>Impresión 3D en titanio</h4>
           <p>Fabricamos implantes médicos de estructura compleja combinando las tecnologías CAD (diseño asistido por computadora) y MPBF (fusión de polvo metálico en una cama de impresión). De esta manera, los implantes están diseñados a medida de cada paciente.</p>
         </div>
         <div className='impContainer-firstRow--img'>
@@ -172,6 +175,32 @@ const Index = () => {
           </div>
         )}
       </div>}
+      <div className='contactCase'>
+        <button className="contactCase_button" onClick={() => setFormShown(true)}>
+          <div className="contactCase_button-content">
+            <FaEnvelope /> Envianos tu caso 
+          </div>
+        </button>
+        <div className='contactCase_form' style={{display: formShown ? 'block' : 'none'}}>
+          <FaTimes 
+            style={{position: 'absolute', top: '22vh', left: '26vw', zIndex: '1', fontSize: '1.2rem', cursor:'pointer'}} 
+            onClick={() => setFormShown(false)}
+          />
+          <div className="contactCase_form-container">
+            <form action="">
+              <label htmlFor='from_name'>Nombre</label>
+              <input type="text" id='nombre' name='from_name' /*value={toSend.from_name}*/ /*onChange={handleChange}*/ required />
+              <label htmlFor='from_email'>Email</label>
+              <input type="email" id='email' name='from_email' /*value={toSend.from_email}*/ /*onChange={handleChange}*/ required />
+              <label htmlFor='from_tel'>Teléfono</label>
+              <input type="text" id='telefono' name='from_tel' /*value={toSend.from_tel}*/ /*onChange={handleChange}*/ required />
+              <label htmlFor='message'>Mensaje</label>
+              <textarea id='mensaje' name='message' /*value={toSend.message}*/ /*onChange={handleChange}*/ required />
+              <button>Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
     </>
   )

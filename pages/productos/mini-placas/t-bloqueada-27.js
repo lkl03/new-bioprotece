@@ -24,7 +24,7 @@ const PlacaEnL = () => {
         })
     }, [])
 
-    const titulo = 'Placa en T bloqueada titanio';
+    const titulo = 'Placa en T bloqueada titanio 2.7';
     const img = 'placa-en-t';
 
 

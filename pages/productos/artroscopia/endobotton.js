@@ -75,11 +75,6 @@ const Endbotton = () => {
                                     <td className="text-left">Titanio</td>
                                 </tr>
                                 <tr className="lastr">
-                                    <td className="text-left code">65-042</td>
-                                    <td className="text-left">35mm</td>
-                                    <td className="text-left">Titanio</td>
-                                </tr>
-                                <tr className="lastr">
                                     <td className="text-left code">65-043</td>
                                     <td className="text-left">Sindesmosis</td>
                                     <td className="text-left">Titanio</td>
