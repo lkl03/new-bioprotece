@@ -3,7 +3,9 @@ import { db } from '../../../public/config'
 import { onSnapshot, collection, query, where, orderBy } from 'firebase/firestore';
 import Nav from '../../../components/Navbar/Nav'
 import Loader from '../../../components/Generales/Loader';
-import { FaEnvelope, FaTimes } from 'react-icons/fa'
+import { FaEnvelope, FaTimes } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Index = () => {
@@ -17,15 +19,27 @@ const Index = () => {
         });
     }, [])
 
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true)
   const [formShown, setFormShown] = useState(false)
-
 
   const [clickedAll, setClickedAll] = useState(false)
   const [clickedFirst, setClickedFirst] = useState(false)
   const [clickedSecond, setClickedSecond] = useState(false)
   const [clickedThird, setClickedThird] = useState(false)
 
+  useEffect(() => {
+    let uploadField = document.getElementById("file");
+    uploadField.onchange = function() {
+        if(this.files[0].size > 25165824){
+          toast.warning("El archivo seleccionado es demasiado grande (máx: 24MB). Por favor envienos un mail directamente a manuel@bioprotece.com.ar")
+          this.value = "";
+          console.log(this.value)
+        }else{
+          console.log(this.value)
+        }
+    };
+  }, [])
+  
 
 //functions to filter products
   function showAllItems () {
@@ -97,6 +111,7 @@ const Index = () => {
   
   return (
     <>
+    <ToastContainer></ToastContainer>
     <Nav />
     <div className='impContainer'>
       <div className='impContainer-titlendesc'>
