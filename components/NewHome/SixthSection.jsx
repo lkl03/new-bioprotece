@@ -47,7 +47,7 @@ const SixthSection = () => {
     }
 
     return (
-        <div style={{background: 'linear-gradient(60.7deg, #1348c4 -1.81%, #0188d3 73.84%)', boxShadow: 'inset 0px -33px 25px rgba(64, 64, 64, 0.2)'}}>
+        <div style={{ background: 'linear-gradient(60.7deg, #1348c4 -1.81%, #0188d3 73.84%)', boxShadow: 'inset 0px -33px 25px rgba(64, 64, 64, 0.2)' }}>
             <div id='contactanos' className='sixthContainer'>
                 <div className='sixthContainer_left'>
                     <h3 className='sixthContainer_left-sectionTitle'>Contactarse con Bioprotece</h3>

@@ -235,7 +235,8 @@
     visibility: hidden;
     font-size: 1rem;
     color: #06C1A0;
-    font-weight: bold;
+    font-weight: 600;
+    font-family: 'Poppins';
 }
 
 .contactCase{
@@ -319,18 +320,18 @@
         &-container{
             width: 50%;
             background-color: #ececec;
-            padding: 2.5rem;
+            padding: 2.5rem 5rem 2.5rem 5rem;
             position: fixed;
             top: 12.5vh;
             left: 25%;
             right: 0;
             border: none;
             border-radius: 10px;
-            height: 85vh;
+            height: 75vh;
             @media only screen and (max-width: 1280px) {
                 width: 75%;
                 background-color: #ececec;
-                padding: 0.5rem;
+                padding: 1.5rem;
                 position: fixed;
                 top: 12.5vh;
                 left: 12.5%;
@@ -357,7 +358,7 @@
                     color: #0188d3;
                 }
                 @media only screen and (max-width: 720px) {
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     margin-left: 1rem;
                     margin-right: 1rem;
                     margin-top: 0.75rem;
@@ -384,6 +385,7 @@
                     padding: 0.25rem;
                     margin-left: 1rem;
                     margin-right: 1rem;
+                    font-size: 0.9rem;
                 }
             }
             textarea{
@@ -410,6 +412,7 @@
                     margin-left: 1rem;
                     margin-right: 1rem;
                     margin-bottom: 0.75rem;
+                    font-size: 0.9rem;
                 }
             }
             button {
@@ -432,10 +435,26 @@
                 }
                 @media only screen and (max-width: 720px) {
                     width: 90%;
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     margin: auto;
                 }
             }
         }
+    }
+    #contactCase_form-closer{
+        position: absolute;
+        top: 15vh;
+        right: 26vw;
+        z-index: 1;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+            color: #06C1A0;
+        }
+        @media only screen and (max-width: 1080px) {
+            right: 18vw;
+        }
+
     }
 }
