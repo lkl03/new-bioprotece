@@ -39,6 +39,19 @@ const Index = () => {
         }
     };
   }, [])
+
+  useEffect(() => {
+    const script = document.createElement('script');
+  
+    script.src = "https://smtpjs.com/v3/smtp.js";
+    script.async = true;
+  
+    document.body.appendChild(script);
+  
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   
 
 //functions to filter products
@@ -112,7 +125,7 @@ const Index = () => {
   const sendForm = (e) => {
     e.preventDefault()
     Email.send({
-      SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
+      SecureToken : "2ad219eb-c864-42d2-9387-285d1764b887",
       To : 'them@website.com',
       From : "you@isp.com",
       Subject : "This is the subject",
