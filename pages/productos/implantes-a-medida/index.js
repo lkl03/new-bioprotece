@@ -108,6 +108,24 @@ const Index = () => {
       });
     }
   }
+
+  const sendForm = (e) => {
+    e.preventDefault()
+    Email.send({
+      SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
+      To : 'them@website.com',
+      From : "you@isp.com",
+      Subject : "This is the subject",
+      Body : "And this is the body",
+    Attachments : [
+    {
+      name : "smtpjs.png",
+      path : "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
+    }]
+  }).then(
+    message => alert(message)
+  );
+  }
   
   return (
     <>
@@ -202,7 +220,7 @@ const Index = () => {
             onClick={() => setFormShown(false)}
           />
           <div className="contactCase_form-container">
-            <form action="">
+            <form action="" onSubmit={sendForm}>
               <label htmlFor='nombre'>Nombre</label>
               <input type="text" id='nombre' name='from_name' /*value={toSend.from_name}*/ /*onChange={handleChange}*/ required />
               <label htmlFor='email'>Email</label>
